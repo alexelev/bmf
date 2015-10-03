@@ -1,6 +1,8 @@
 body{
     width: 100%;
     height: 100%;
+    min-height: 320px;
+    min-width: 480px;
 }
 .wrap{
     width: 100%;
@@ -22,7 +24,6 @@ body{
     background: -moz-radial-gradient(center, ellipse cover,  #66cc33 0%, #339933 51%, #336633 100%); /* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#66cc33), color-stop(51%,#339933), color-stop(100%,#336633)); /* Chrome,Safari4+ */
     background: -webkit-radial-gradient(center, ellipse cover,  #66cc33 0%,#339933 51%,#336633 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #66cc33 0%,#339933 51%,#336633 100%); /* Opera 12+ */
     background: -ms-radial-gradient(center, ellipse cover,  #66cc33 0%,#339933 51%,#336633 100%); /* IE10+ */
     background: radial-gradient(ellipse at center,  #66cc33 0%,#339933 51%,#336633 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66cc33', endColorstr='#336633',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
