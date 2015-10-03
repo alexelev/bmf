@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 100%;
+    height: 300px;
+    /*position: relative;*/
+}
+.wrap div{
+    /*display: inline-block;*/
+}
+.content{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    /*position: relative;*/
+    background-color: aquamarine;
+    float: left;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#66cc33+0,339933+51,336633+100 */
+    background: #66cc33; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #66cc33 0%, #339933 51%, #336633 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#66cc33), color-stop(51%,#339933), color-stop(100%,#336633)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #66cc33 0%,#339933 51%,#336633 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #66cc33 0%,#339933 51%,#336633 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #66cc33 0%,#339933 51%,#336633 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #66cc33 0%,#339933 51%,#336633 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66cc33', endColorstr='#336633',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.lside, .rside{
+    height: 100vh;
+    width: 15%;
+    /*display: inline-block;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lside{
+    /*background-color: blueviolet;*/
+    background-image: url("../../../psd/bcgleft.png");
+    float: left;
+}
+.rside{
+    /*background-color: chocolate;*/
+    background-image: url("../../../psd/bcgright.png");
+    float: right;
+}
+.footer{
+    clear: both;
+}
