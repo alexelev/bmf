@@ -11,9 +11,6 @@ body{
     /*height: 300px;*/
     /*position: relative;*/
 }
-.wrap div{
-    /*display: inline-block;*/
-}
 .content{
     /*position: relative;*/
     display: inline-block;
@@ -36,6 +33,7 @@ body{
 }
 .lside, .rside{
     min-height: 100vh;
+    height: 100%;
     width: 10%;
     display: inline-block;
     background-size: cover;
@@ -112,7 +110,7 @@ nav > ul li{
     vertical-align: top;
     /*TODO: to fix width change and the element go down*/
 }
-.log{
+.logo{
     background: url('../img/logo.png') right no-repeat;
     min-height: 80px;
     background-size: contain;
@@ -146,7 +144,7 @@ nav > ul li{
     background-color: #5a7e51;
     opacity: 0.6;
     width: 100%;
-    display: none;
+    /*display: none;*/
 }
 .gallery .leftarr,
 .gallery .rightarr{
@@ -159,12 +157,15 @@ nav > ul li{
     margin: 0 auto;
     display: inline-block;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 .gallery .piclist > ul {
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
+    width: 9999px;
 }
 .gallery .piclist > ul > li {
     display: inline-block;
@@ -177,4 +178,5 @@ nav > ul li{
 .gallery .piclist > ul > li > img {
     width: 150px;
     height: 120px;
+    display: block;
 }
