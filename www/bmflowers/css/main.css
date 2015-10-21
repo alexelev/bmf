@@ -14,7 +14,7 @@ body{
     height: 100%;
     width: 80%;
     margin: 0 auto;
-    /*padding: 20px;*/
+    padding: 20px;
     /*background-color: #336633;*/
     background: url('../img/topfint.png') right top no-repeat,
                 url('../img/bottomfint.png') left 90% no-repeat,
