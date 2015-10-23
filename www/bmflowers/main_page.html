@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>BMFlowers</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/plugins/owl.carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/plugins/owl.carousel/owl.theme.css">
+    <link rel="stylesheet" href="assets/plugins/owl.carousel/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+<div class="gallery">
+    <div class="customNavigation">
+        <a class="btn prev"><img src="img/leftb.png"></a>
+    </div><div class="owl-wrap">
+    <div id="owl" class="owl-carousel">
+        <div class="item"><img src="img/example.png" alt=""></div>
+        <div class="item"><img src="img/example.png" alt=""></div>
+        <div class="item"><img src="img/example.png" alt=""></div>
+        <div class="item"><img src="img/example.png" alt=""></div>
+        <div class="item"><img src="img/example.png" alt=""></div>
+        <div class="item"><img src="img/example.png" alt=""></div>
+    </div>
+</div><div class="customNavigation">
+    <a class="btn next"><img src="img/rightb.png"></a>
+</div>
+</div>
 <div class="wrap">
     <header></header>
     <div class="logo"></div>
@@ -24,5 +43,22 @@
     </div>
     <footer></footer>
 </div>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="assets/plugins/owl.carousel/owl.carousel.min.js"></script>
+<script>
+    $('#owl').owlCarousel({
+        loop: true,
+        center: true,
+        margin: 30,
+        nav: false,
+        pagination: false,
+    });
+    $(".prev").click(function(){
+        $('#owl').trigger('owl.prev');
+    });
+    $(".next").click(function(){
+        $('#owl').trigger('owl.next');
+    });
+</script>
 </body>
 </html>
