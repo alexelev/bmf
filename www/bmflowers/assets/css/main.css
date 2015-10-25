@@ -1,0 +1,209 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Verdana", cursive, serif;
+}
+body{
+    background: url("../../img/back.png") repeat-y;
+    background-size: 100% auto;
+}
+.wrap{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: #336633;*/
+    background: url('../../img/topfint.png') right top no-repeat,
+                url('../../img/bottomfint.png') left 90% no-repeat,
+                radial-gradient(ellipse at center,  #65ca33 0%,#5ab333 50%,#4a9433 75%, #346833 100%)  ;
+    box-shadow:  0 1px 4px rgba(0, 0, 0, .3),
+                -10px 0 20px 0px rgba(0, 0, 0, .8),
+                10px 0 20px 0px rgba(0, 0, 0, .8),
+                0 0 40px rgba(0, 0, 0, .1) inset;
+}
+.logo{
+    background: url("../../img/logo.png") 90% center no-repeat;
+    background-size: contain;
+    margin: 10% 0 0 20%;
+    width: 75%;
+    height: 100px;
+    cursor: pointer;
+    display: block;
+}
+/*header:before{*/
+    /*content: '';*/
+    /*background: url('../../img/topfint.png') right top no-repeat;*/
+    /*/!*background-size: cover;*!/*/
+    /*/!*width: 80%;*!/*/
+    /*height: 312px;*/
+    /*display: block;*/
+    /*/!*position: absolute;*!/*/
+/*}*/
+/*header{*/
+    /*width: 100%;*/
+    /*height: 20%;*/
+    /*/!*padding-right: 20px;*!/*/
+    /*background: url("../../img/logo.png") 90% center no-repeat;*/
+    /*background-size: contain;*/
+/*}*/
+/*header:after{*/
+    /*content: '';*/
+    /*background: url('../../img/topfint.png') right top no-repeat;*/
+    /*/!*background-size: cover;*!/*/
+    /*width: 80%;*/
+    /*height: 312px;*/
+    /*position: absolute;*/
+/*}*/
+
+nav{
+    /*position: relative;*/
+    /*top: -4rem;*/
+    /*left: -7rem;*/
+    /*display: none;*/
+    /*display: inline-block;*/
+    position: fixed;
+    height: 400px;
+    margin-top: -300px;
+    top: 50%;
+    left: 10%;
+    margin-left: -100px;
+}
+nav > ul li {
+    margin: 20px;
+    padding: 20px 40px 20px 20px;
+    background: linear-gradient(to right,
+                                rgba(8, 58, 6, 1) 0%,
+                                rgba(8, 58, 6, 1) 50%,
+                                rgba(8, 58, 6, 0.75) 60%,
+                                rgba(8, 58, 6, 0.5) 70%,
+                                rgba(8, 58, 6, 0.25) 80%,
+                                rgba(8, 58, 6, 0.1) 90%,
+                                rgba(8, 58, 6, 0) 100%);
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 10px 5px -5px rgba(0, 0, 0, .2);;
+    transition: font-size 0.5s linear,
+                color 0.5s linear,
+                padding 0.5s linear;
+}
+nav > ul li:hover{
+    font-size: 1.5rem;
+    color: yellowgreen;
+    padding: 20px 10px 20px 20px;
+    transition: font-size 0.5s linear,
+                color 0.5s linear,
+                padding 0.5s linear;
+}
+.content{
+    margin-left: 20%;
+    width: 75%;
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    background: url('../../img/dlya_texta.png') no-repeat;
+    background-size: contain;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+    padding: 2rem;
+}
+.gallery{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    background: rgba(1, 52, 0, 0.5);
+    min-height: 100px;
+    max-height: 300px;
+}
+.customNavigation{
+    display: inline-block;
+    width: 5%;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 4%;
+}
+.customNavigation a {
+    display: block;
+    cursor: pointer;
+}
+.owl-wrap{
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.owl-carousel img {
+    /*height: 80px;*/
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.owl-carousel img:hover{
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+.not_main_logo{
+    background: url("../../img/logo.png") no-repeat;
+    background-size: contain;
+    /*margin: 10% 0 0 20%;*/
+    width: 45%;
+    height: 100px;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    display: block;
+}
+.backing{
+    background-color: rgba(211,211,211,0.5);
+    min-height: 100%;
+    /*width: 100%;*/
+    position: relative;
+    top: -100px;
+    z-index: 10;
+    padding: 100px 20px 20px 20px;
+    text-align: justify;
+    box-shadow: 0 0 10px 5px rgba(211, 211, 211, 0.4);
+}
+.not_main_wrap{
+    min-height: calc(100% - 40px);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: #336633;*/
+    background: url('../../img/topfint.png') right top no-repeat,
+                url('../../img/bottomfint.png') left 90% no-repeat,
+                radial-gradient(ellipse at center,
+                                    #65ca33 0%,
+                                    #5ab333 50%,
+                                    #4a9433 75%,
+                                    #346833 100%);
+    box-shadow:  0 1px 4px rgba(0, 0, 0, .3),
+                -10px 0 20px 0px rgba(0, 0, 0, .8),
+                10px 0 20px 0px rgba(0, 0, 0, .8),
+                0 0 40px rgba(0, 0, 0, .1) inset;
+}
+nav.not_main{
+    position: fixed;
+    height: 400px;
+    z-index: 100;
+    top: 15%;
+    left: 2%;
+    margin: 0;
+    transition: font-size 0.5s linear,
+                color 0.5s linear,
+                padding 0.5s linear;
+}
+nav.not_main > ul li a{
+    text-decoration: inherit;
+    color: white;
+}
+nav.not_main > ul li a:hover{
+    font-size: 1.5rem;
+    color: yellowgreen;
+    transition: font-size 0.5s linear,
+                color 0.5s linear;
+    text-decoration: none;
+}
