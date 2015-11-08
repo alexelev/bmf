@@ -42,11 +42,6 @@ class DB{
             $array[] = $row;
         }
         return $array;
-//        if(($values = $st->fetchAll()) !== false){
-//            return $values;
-//        } else {
-//            return null;
-//        }
     }
 
     /**
@@ -121,18 +116,19 @@ class DB{
         $st->execute();
         $result = $st->fetchAll(PDO::FETCH_ASSOC);
         return $result;
-//        $st = self::$pdo->prepare('CALL `get');
     }
 
 }
 
-class DataType{
+/**
+ * Class DataType contains constants of data types for database
+ */
+class DataType
+{
     const INT = PDO::PARAM_INT;
     const STR = PDO::PARAM_STR;
     const BOOL = PDO::PARAM_BOOL;
     const INOUT = PDO::PARAM_INPUT_OUTPUT;
-    const INT_SIZE = 10;
-    const STR_SIZE = 255;
 }
 
 /**
