@@ -7,7 +7,7 @@ html, body{
     font-family: "Verdana", cursive, serif;
 }
 body{
-    background: url("../../img/back.png") repeat-y;
+    background: url("../img/back.png") repeat-y;
     background-size: 100% auto;
 }
 .wrap{
@@ -16,8 +16,8 @@ body{
     margin: 0 auto;
     padding: 20px;
     /*background-color: #336633;*/
-    background: url('../../img/topfint.png') right top no-repeat,
-                url('../../img/bottomfint.png') left 90% no-repeat,
+    background: url('../img/topfint.png') right top no-repeat,
+                url('../img/bottomfint.png') left 90% no-repeat,
                 radial-gradient(ellipse at center,  #65ca33 0%,#5ab333 50%,#4a9433 75%, #346833 100%)  ;
     box-shadow:  0 1px 4px rgba(0, 0, 0, .3),
                 -10px 0 20px 0px rgba(0, 0, 0, .8),
@@ -25,7 +25,7 @@ body{
                 0 0 40px rgba(0, 0, 0, .1) inset;
 }
 .logo{
-    background: url("../../img/logo.png") 90% center no-repeat;
+    background: url("../img/logo.png") 90% center no-repeat;
     background-size: contain;
     margin: 10% 0 0 20%;
     width: 75%;
@@ -102,7 +102,7 @@ nav > ul li:hover{
     width: 75%;
     /*display: inline-block;*/
     /*vertical-align: top;*/
-    background: url('../../img/dlya_texta.png') no-repeat;
+    background: url('../img/dlya_texta.png') no-repeat;
     background-size: contain;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -146,7 +146,7 @@ nav > ul li:hover{
     cursor: pointer;
 }
 .not_main_logo{
-    background: url("../../img/logo.png") no-repeat;
+    background: url("../img/logo.png") no-repeat;
     background-size: contain;
     /*margin: 10% 0 0 20%;*/
     width: 45%;
@@ -173,8 +173,8 @@ nav > ul li:hover{
     margin: 0 auto;
     padding: 20px;
     /*background-color: #336633;*/
-    background: url('../../img/topfint.png') right top no-repeat,
-                url('../../img/bottomfint.png') left 90% no-repeat,
+    background: url('../img/topfint.png') right top no-repeat,
+                url('../img/bottomfint.png') left 90% no-repeat,
                 radial-gradient(ellipse at center,
                                     #65ca33 0%,
                                     #5ab333 50%,

@@ -1,0 +1,122 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: A
+ * Date: 31.10.2015
+ * Time: 7:02
+ */
+
+include_once 'Exceptions.php';
+
+class App{
+    private static $controller; //текущий контроллер
+    private static $action;     //текущий action метод контроллера
+
+    /**
+     * application initialization:
+     * start sessions, connect with database, set error reporting
+     * @return void
+     */
+    public static function init(){
+        //error reporting modes
+        if(APP_MODE == 'dev'){
+            ini_set('display_errors', '1');
+            error_reporting(E_ALL);
+        } else {
+            error_reporting(0);
+        }
+
+        spl_autoload_register('App::loadClasses');
+
+        session_start();
+
+        DB::connect(DB_HOST, DB_USER, DB_PASS, DB_NAME, DB_CHARSET);
+
+    }
+
+
+    /**
+     * to run controller
+     * @return function $run() running current controller
+     */
+    public static function run(){
+        if(empty($_GET['controller'])){
+            $_GET['controller'] = 'index';
+        }
+        self::$controller = explode('-', $_GET['controller']);
+        foreach (self::$controller as &$cont) {
+            $cont = ucfirst($cont);
+        }
+        self::$controller = implode('', self::$controller);
+        $controller = self::$controller . 'Controller';
+        //определение action-метода для обработки запроса
+        if(empty($_GET['action'])){
+            $_GET['action'] = 'default';
+        }
+        self::$action = implode('', self::$action);
+        //запуск контроллера
+        return $controller::run();
+    }
+
+    /**
+     * function for classes's autoload
+     * @param string $className
+     * @throws FileNotFoundException if the classfile doesn't exist
+     * @throws ClassNotFoundException if the class in file doesn't exist
+     * @return void
+     */
+    public static function loadClasses($className){
+//        $fileName = '/';
+        //если класс - контроллер или модель - отправляемся искать файлик в соотв. папку
+        //в противном случае ищем классы в папке classes
+        if(($index = strripos($className, 'Controller'))){
+            $fileName = '/Controller/' . substr_replace($className, '', $index) . '.php';
+        } elseif (($index = strripos($className, 'Model'))){
+            $fileName = '/Model/' . substr_replace($className, '', $index) . '.php';
+//        } elseif(($index = strripos($className, 'Exception'))){
+//            $fileName = '/classes/Exceptions.php';
+        } else {
+            $fileName = '/classes/' . $className . '.php';
+        }
+
+        //если файла нет - генерим исключение, если есть - подключаем
+        if(!file_exists(APP_DIR . $fileName)){
+            throw new FileNotFoundException($fileName);
+        } else {
+            include_once APP_DIR . $fileName;
+        }
+
+        //если в файле нет класса - исключение
+        if(!class_exists($className)){
+            throw new ClassNotFoundException($className);
+        }
+    }
+
+    /**
+     *it makes links to controllers
+     * @param string $controller controller's name
+     * @param array $params GET parameters
+     * @return string $link
+     */
+    public static function getLink($controller, $params = array()){
+        if(preg_match('/[A-Z]/', $controller)){
+            $result = array();
+            $controller = preg_match_all('/[A-Z][^A-Z]*/', preg_replace('/(.+)Controller$/', '$1', $controller), $result);
+            $controller = strtolower(implode('-', $result[0]));
+        }
+        $link = 'index.php?controller=' . $controller;
+        foreach ($params as $key => $param) {
+            $link .= '&' . urlencode($key) . '=' . urlencode($param);
+        }
+        return BASE_PATH . $link;
+    }
+
+    /**
+     * it makes simple links to styles, scripts, images
+     * @param string $path path to source
+     * @return string $link
+     */
+    public static function siteUrl($path=''){
+        return BASE_PATH . $path;
+    }
+}
