@@ -12,6 +12,7 @@ class App{
     private static $controller; //текущий контроллер
     private static $action;     //текущий action метод контроллера
 
+    private static $currentUser;
     /**
      * application initialization:
      * start sessions, connect with database, set error reporting
@@ -118,5 +119,61 @@ class App{
      */
     public static function siteUrl($path=''){
         return BASE_PATH . $path;
+    }
+
+    /**
+     * to get current controller
+     * @return mixed
+     */
+    public static function getController(){
+        return self::$controller;
+    }
+
+    /**to get current action
+     * @return mixed
+     */
+    public static function getAction()
+    {
+        return self::$action;
+    }
+
+    /**
+     * to check on the type of request
+     * @return bool
+     */
+    public static function isAjax()
+    {
+        return
+            isset($_SERVER['HTTP_X_REQUESTED_WITH']) &&
+            (
+                $_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest' ||
+                strpos($_SERVER['HTTP_X_REQUESTED_WITH'], 'ShockwaveFlash') !== false
+            );
+    }
+
+    /**set/get current user
+     * @param null $user
+     * @return mixed
+     * TODO: проверить, а нужна ли мне вообще эта механика работы с пользователями?
+     */
+    public static function currentUser($user = null)
+    {
+        if($user){
+            if(is_object($user)){
+                $_SESSION['current_user_id'] = $user->getId();
+                self::$currentUser = $user;
+            } else {
+                $_SESSION['current_user_id'] = $user;
+                self::$currentUser = new UserModel($user, 1);
+            }
+        }
+        if(isset($_SESSION['current_user_id'])){
+            $_SESSION['current_user_id'] = 0;
+            return null;
+        }
+        if(!self::$currentUser && $_SESSION['current_user_id']){
+            self::$currentUser = new UserModel($_SESSION['current_user_id']);
+        }
+        return self::$currentUser;
     }
 }
