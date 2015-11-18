@@ -100,6 +100,4 @@ abstract class Controller
             return static::actionDefault();
         }
     }
-
-
 }

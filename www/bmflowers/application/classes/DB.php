@@ -3,7 +3,7 @@
  * DB class contains methods for working with database
  */
 
-
+//TODO: переработать для корректной работы с PDO!!!!1 изменить все fetchAll() на fetch(), переделать функцию для работы с хранимыми процедурами!!1
 class DB{
     private static $pdo = null;
 
@@ -22,6 +22,7 @@ class DB{
             self::$pdo = new PDO($dsn, $login, $pass, array(
                 PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES $charset",
             ));
+
         } catch (PDOException $e) {
             throw new DatabaseException("Connection error");
         }
@@ -31,15 +32,28 @@ class DB{
     /**
      * execute custom query
      * @param string $query the sql-query string parameters with shielded
-     * @param array $params the parameters for the sql-query string
+     * @param array $params the parameters for the sql-query string an array of arrays, each of which represents the
+     * value of the passed parameter and its type (DataType::INT, DataType::STR, DataType::BOOL, DataType::INOUT) in a
+     * sequence specific request
      * @return array
      */
     public static function query($query, $params=array()){
-        $st = self::$pdo->prepare($query);
-        $st->execute($params);
         $array = array();
-        while(($row = $st->fetch())){
-            $array[] = $row;
+        if(count($params) == 0){
+            $data = self::$pdo->query($query, PDO::FETCH_ASSOC);
+            foreach ($data as $dataitem) {
+                $array[] = $dataitem;
+            }
+        } else {
+            $st = self::$pdo->prepare($query);
+            foreach ($params as $index => $param) {
+                $st->bindValue($index + 1, $param[0], $param[1]);
+            }
+            $st->execute();
+            while (($row = $st->fetch(PDO::FETCH_ASSOC))) {
+                $array[] = $row;
+            }
+            $st->closeCursor();
         }
         return $array;
     }
@@ -48,15 +62,22 @@ class DB{
      * Executing a SELECT query and returns the first column of the first row
      * It is used when you need to execute SELECT query to a single value
      * @param string $query the sql-query string parameters with shielded
-     * @param array $params the parameters for the sql-query string
+     * @param array $params the parameters for the sql-query string an array of arrays, each of which represents the
+     * value of the passed parameter and its type (DataType::INT, DataType::STR, DataType::BOOL, DataType::INOUT) in a
+     * sequence specific request
      * @return mixed
      */
     public static function getValue($query, $params=array()){
         $st = self::$pdo->prepare($query);
-        $st->execute($params);
+        foreach ($params as $index => $param) {
+            $st->bindValue($index + 1, $param[0], $param[1]);
+        }
+        $st->execute();
         if(($value = $st->fetchColumn()) !== false){
-            return $value;
+            $st->closeCursor();
+            return (float) $value;
         } else {
+            $st->closeCursor();
             return null;
         }
     }
@@ -65,15 +86,22 @@ class DB{
      * Executing a SELECT query and returns the first row as an associative array
      * It is used when you need to execute SELECT query to get one line
      * @param string $query the sql-query string parameters with shielded
-     * @param array $params the parameters for the sql-query string
+     * @param array $params the parameters for the sql-query string an array of arrays, each of which represents the
+     * value of the passed parameter and its type (DataType::INT, DataType::STR, DataType::BOOL, DataType::INOUT) in a
+     * sequence specific request
      * @return null or mixed
      */
     public static function getRow($query, $params=array()){
         $st = self::$pdo->prepare($query);
-        $st->execute($params);
-        if(($value = $st->fetch()) !== false){
-            return $value;
+        foreach ($params as $index => $param) {
+            $st->bindValue($index + 1, $param[0], $param[1]);
+        }
+        $st->execute();
+        if(($row = $st->fetch(PDO::FETCH_ASSOC)) !== false){
+            $st->closeCursor();
+            return $row;
         } else {
+            $st->closeCursor();
             return null;
         }
     }
@@ -81,21 +109,27 @@ class DB{
     /**
      * Executing a SELECT query and returns all the rows in an array
      * @param string $query the sql-query string parameters with shielded
-     * @param array $params the parameters for the sql-query string
+     * @param array $params the parameters for the sql-query string an array of arrays, each of which represents the
+     * value of the passed parameter and its type (DataType::INT, DataType::STR, DataType::BOOL, DataType::INOUT) in a
+     * sequence specific request
      * @param null $index by default or set by you
      * @return array
      */
     public static function getTable($query, $params=array(), $index = null){
-        $st = self::$pdo->prepare($query);
-        $st->execute($params);
         $array = array();
-        while($row = $st->fetch()){
+        $st = self::$pdo->prepare($query);
+        foreach ($params as $index => $param) {
+            $st->bindValue($index + 1, $param[0], $param[1]);
+        }
+        $st->execute();
+        while($row = $st->fetch(PDO::FETCH_ASSOC)){
             if($index){
                 $array[$row[$index]] = $row;
             } else {
                 $array[] = $row;
             }
         }
+        $st->closeCursor();
         return $array;
     }
 
@@ -107,17 +141,16 @@ class DB{
         return self::$pdo->lastInsertId();
     }
 
+    /**execute a call to a stored procedure
+     * @param string $query the sql-query string parameters with shielded
+     * @param array $params the parameters for the sql-query string an array of arrays, each of which represents the
+     * value of the passed parameter and its type (DataType::INT, DataType::STR, DataType::BOOL, DataType::INOUT) in a
+     * sequence specific request
+     * @return array
+     */
     public static function exStoredProc($query, $params=array()){
-        $st = self::$pdo->prepare($query);
-        $result = array();
-        foreach ($params as $index => $param) {
-            $st->bindValue($index + 1, $param[0], $param[1]);
-        }
-        $st->execute();
-        $result = $st->fetchAll(PDO::FETCH_ASSOC);
-        return $result;
+        return self::query($query, $params);
     }
-
 }
 
 /**
