@@ -3,9 +3,25 @@
  * DB class contains methods for working with database
  */
 
-//TODO: переработать для корректной работы с PDO!!!!1 изменить все fetchAll() на fetch(), переделать функцию для работы с хранимыми процедурами!!1
 class DB{
     private static $pdo = null;
+
+    /**
+     * @param string $storeProcName name of stored procedure in your database
+     * @param array $params the parameters for the stored procedure an array of arrays, each of which represents the
+     * value of the passed parameter and its type (DataType::INT, DataType::STR, DataType::BOOL, DataType::INOUT) in a
+     * sequence specific request
+     * @return array
+     */
+    public static function __callStatic($storeProcName, $params)
+    {
+        $query = "CALL " . $storeProcName . "(";
+        foreach ($params as $param) {
+            $query .= "?,";
+        }
+        $query = trim($query, ",") . ")";
+        return self::query($query, $params);
+    }
 
     /**
      * open connect to database
@@ -139,17 +155,6 @@ class DB{
      */
     public static function getInsertedId(){
         return self::$pdo->lastInsertId();
-    }
-
-    /**execute a call to a stored procedure
-     * @param string $query the sql-query string parameters with shielded
-     * @param array $params the parameters for the sql-query string an array of arrays, each of which represents the
-     * value of the passed parameter and its type (DataType::INT, DataType::STR, DataType::BOOL, DataType::INOUT) in a
-     * sequence specific request
-     * @return array
-     */
-    public static function exStoredProc($query, $params=array()){
-        return self::query($query, $params);
     }
 }
 

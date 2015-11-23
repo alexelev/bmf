@@ -35,3 +35,7 @@ class DatabaseException extends Exception{
         parent::__construct($mes, $this->code);
     }
 }
+class CollectionException extends Exception {}
+
+class ModelException extends Exception {}
+
