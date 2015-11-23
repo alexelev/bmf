@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd16d28b-6474-473c-a07f-10f9fb686072" name="Default" comment="рефакторинг DB, добавлена возможность вызова хранимых процедур">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php" />
+    <list default="true" id="bd16d28b-6474-473c-a07f-10f9fb686072" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Plant.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Price.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Specie.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/DB.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/Exceptions.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/Exceptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/Model.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/index.php" afterPath="$PROJECT_DIR$/www/bmflowers/index.php" />
     </list>
     <ignored path="BMFlowers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +76,7 @@
     <favorites_list name="BMFlowers" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.8078078">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
@@ -118,10 +117,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DB.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.52538073">
+                <state vertical-scroll-proportion="-14.884615">
                   <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
                   <folding>
                     <element signature="e#117#496#0#PHP" expanded="false" />
@@ -155,6 +154,46 @@
                     <element signature="e#6083#6168#0#PHP" expanded="false" />
                     <element signature="n#LinkType#0;n#!!top" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Plant.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Plant.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-13.730769">
+                  <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Price.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Price.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.5384617">
+                  <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Specie.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Specie.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.38434783">
+                  <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Plant.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.65384614">
+                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -205,16 +244,6 @@
                     <element signature="e#5162#5283#0#PHP" expanded="false" />
                     <element signature="e#5292#5436#0#PHP" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/config.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -356,16 +385,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="r.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/r.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -373,7 +392,7 @@
           <file leaf-file-name="Collection.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6040609">
+                <state vertical-scroll-proportion="0.41391304">
                   <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding>
                     <element signature="n#__construct#0;n#Collection#0;n#!!top" expanded="true" />
@@ -427,6 +446,9 @@
         <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Model.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/index.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/classes/DB.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/models/Price.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/models/Plant.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/models/Specie.php" />
       </list>
     </option>
   </component>
@@ -440,10 +462,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP-5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="683" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -587,7 +607,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -654,25 +696,31 @@
       <option name="project" value="LOCAL" />
       <updated>1447854482717</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="рефакторинг DB, добавлена возможность вызова хранимых процедур">
+      <created>1448253608154</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1448253608154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="0" y="0" width="683" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24887556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30542636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30542636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -696,7 +744,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="переделан класс для работы с БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="переделан класс для работы с БД" />
+    <MESSAGE value="рефакторинг DB, добавлена возможность вызова хранимых процедур" />
+    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг DB, добавлена возможность вызова хранимых процедур" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1655,7 +1704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6040609">
+        <state vertical-scroll-proportion="0.41391304">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="n#__construct#0;n#Collection#0;n#!!top" expanded="true" />
@@ -1820,7 +1869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52538073">
+        <state vertical-scroll-proportion="-14.884615">
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
             <element signature="e#117#496#0#PHP" expanded="false" />
@@ -1854,6 +1903,38 @@
             <element signature="e#6083#6168#0#PHP" expanded="false" />
             <element signature="n#LinkType#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Price.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Plant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Specie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38434783">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
