@@ -85,17 +85,17 @@ nav > ul li {
     color: #ffffff;
     cursor: pointer;
     box-shadow: 0 10px 5px -5px rgba(0, 0, 0, .2);;
-    transition: font-size 0.5s linear,
-                color 0.5s linear,
-                padding 0.5s linear;
+    transition: font-size 0.2s linear,
+                color 0.2s linear,
+                padding 0.2s linear;
 }
 nav > ul li:hover{
     font-size: 1.5rem;
     color: yellowgreen;
     padding: 20px 10px 20px 20px;
-    transition: font-size 0.5s linear,
-                color 0.5s linear,
-                padding 0.5s linear;
+    transition: font-size 0.2s linear,
+                color 0.2s linear,
+                padding 0.2s linear;
 }
 .content{
     margin-left: 20%;
@@ -117,27 +117,35 @@ nav > ul li:hover{
     min-height: 100px;
     max-height: 300px;
 }
+.gallery:after{
+    content: '';
+    display: block;
+    clear: both;
+}
 .customNavigation{
-    display: inline-block;
+    /*display: inline-block;*/
     width: 5%;
     vertical-align: top;
     text-align: center;
     margin-top: 4%;
+    float: left;
 }
 .customNavigation a {
     display: block;
     cursor: pointer;
 }
 .owl-wrap{
-    display: inline-block;
+    /*display: inline-block;*/
+    float: left;
     width: 90%;
     vertical-align: top;
-    padding: 20px;
+    padding: 20px 0 20px 6%;
     box-sizing: border-box;
 }
 .owl-carousel img {
     /*height: 80px;*/
     width: 150px;
+    max-height: 125px;
     border: 2px solid white;
     border-radius: 10px;
 }
@@ -163,7 +171,7 @@ nav > ul li:hover{
     position: relative;
     top: -100px;
     z-index: 10;
-    padding: 100px 20px 20px 20px;
+    padding: 100px 20px 20px 40px;
     text-align: justify;
     box-shadow: 0 0 10px 5px rgba(211, 211, 211, 0.4);
 }
@@ -206,4 +214,13 @@ nav.not_main > ul li a:hover{
     transition: font-size 0.5s linear,
                 color 0.5s linear;
     text-decoration: none;
+}
+img[data-size]{
+    width: 150px;
+    height: 150px;
+    margin:10px 5px 10px 5px;
+}
+.backing a{
+    text-decoration: none;
+    color: transparent;
 }

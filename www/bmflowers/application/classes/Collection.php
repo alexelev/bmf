@@ -272,6 +272,7 @@ class Collection {
         $query .= !empty($orders) ? "\n\rORDER BY " . implode(", ", $orders) : '';
         $query .= $limit ? "\n\rLIMIT $limit" : '';
 
+        //echo $query; die();
         return $query;
     }
 
@@ -280,7 +281,7 @@ class Collection {
             $linkedModel = $graph['model'];
 
             if (!isset($items[$alias][$id])) {
-                $items[$alias][$id] = new $linkedModel(null, $this->id_lang);
+                $items[$alias][$id] = new $linkedModel(null/*, $this->id_lang*/);
                 $items[$alias][$id]->setId($row[$alias . '->id']);
 
                 foreach ($linkedModel::getFields() as $field) {

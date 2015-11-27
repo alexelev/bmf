@@ -522,9 +522,9 @@ class Model
     {
         if (static::$links[$link]) {
             if (is_a($model, static::$links[$link]['model'] . 'Model')) {
-                if (static::$links[$link]['type'] == LinkType::FOREIGN_KEY || static::$links[$link]['limit'] == 1) {
+                if (static::$links[$link]['type'] == LinkType::FOREIGN_KEY || (isset(static::$links[$link]['limit']) && static::$links[$link]['limit'] == 1)) {
                     $this->models[$link] = $model;
-                } else if (!in_array($model, $this->models[$link])) {
+                } else if (!isset($this->models[$link]) || !in_array($model, $this->models[$link])) {
                     $this->models[$link][] = $model;
                 }
             } else {

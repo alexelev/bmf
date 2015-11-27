@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd16d28b-6474-473c-a07f-10f9fb686072" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Plant.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Price.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Specie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/templates/chunks/meta.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/templates/chunks/scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/templates/gallery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/templates/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/templates/plant.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/Application.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/Model.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/models/Plant.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Plant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/assets/css/main.css" afterPath="$PROJECT_DIR$/www/bmflowers/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/config.php" afterPath="$PROJECT_DIR$/www/bmflowers/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/index.php" afterPath="$PROJECT_DIR$/www/bmflowers/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/main_page.html" afterPath="$PROJECT_DIR$/www/bmflowers/main_page.html" />
     </list>
     <ignored path="BMFlowers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +80,43 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
+        <option name="myItemId" value="flr_plants" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - florushka@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
         <option name="myItemId" value="flr_feedback" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - florushka@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="flr_description" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -76,346 +126,138 @@
     <favorites_list name="BMFlowers" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8078078">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#7#84#0#PHP" expanded="false" />
-                    <element signature="e#210#450#0#PHP" expanded="false" />
-                    <element signature="e#524#744#0#PHP" expanded="false" />
-                    <element signature="e#602#702#0#PHP" expanded="false" />
-                    <element signature="e#703#744#0#PHP" expanded="false" />
-                    <element signature="e#756#851#0#PHP" expanded="false" />
-                    <element signature="e#958#1241#0#PHP" expanded="false" />
-                    <element signature="e#1323#1551#0#PHP" expanded="false" />
-                    <element signature="e#1404#1509#0#PHP" expanded="false" />
-                    <element signature="e#1510#1551#0#PHP" expanded="false" />
-                    <element signature="e#1563#1672#0#PHP" expanded="false" />
-                    <element signature="e#1785#1832#0#PHP" expanded="false" />
-                    <element signature="e#1877#1928#0#PHP" expanded="false" />
-                    <element signature="e#1988#2075#0#PHP" expanded="false" />
-                    <element signature="n#redirect#0;n#Controller#0;n#!!top" expanded="true" />
-                    <element signature="e#2186#2245#0#PHP" expanded="false" />
-                    <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Exceptions.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Exceptions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.884615">
-                  <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#117#496#0#PHP" expanded="false" />
-                    <element signature="e#625#692#0#PHP" expanded="false" />
-                    <element signature="e#791#1122#0#PHP" expanded="false" />
-                    <element signature="e#1254#1513#0#PHP" expanded="false" />
-                    <element signature="e#1313#1403#0#PHP" expanded="false" />
-                    <element signature="e#1417#1513#0#PHP" expanded="false" />
-                    <element signature="e#1526#1929#0#PHP" expanded="false" />
-                    <element signature="e#2023#2580#0#PHP" expanded="false" />
-                    <element signature="e#2125#2207#0#PHP" expanded="false" />
-                    <element signature="e#2218#2580#0#PHP" expanded="false" />
-                    <element signature="e#2284#2403#0#PHP" expanded="false" />
-                    <element signature="e#2444#2538#0#PHP" expanded="false" />
-                    <element signature="e#2615#3142#0#PHP" expanded="false" />
-                    <element signature="e#3256#3367#0#PHP" expanded="false" />
-                    <element signature="e#3400#3595#0#PHP" expanded="false" />
-                    <element signature="e#3522#3595#0#PHP" expanded="false" />
-                    <element signature="e#3607#4144#0#PHP" expanded="false" />
-                    <element signature="e#4256#4367#0#PHP" expanded="false" />
-                    <element signature="e#4400#4593#0#PHP" expanded="false" />
-                    <element signature="e#4520#4593#0#PHP" expanded="false" />
-                    <element signature="e#4605#5100#0#PHP" expanded="false" />
-                    <element signature="e#5255#5366#0#PHP" expanded="false" />
-                    <element signature="e#5399#5589#0#PHP" expanded="false" />
-                    <element signature="e#5455#5579#0#PHP" expanded="false" />
-                    <element signature="e#5526#5579#0#PHP" expanded="false" />
-                    <element signature="e#5652#5753#0#PHP" expanded="false" />
-                    <element signature="e#5850#5921#0#PHP" expanded="false" />
-                    <element signature="n#DataType#0;n#!!top" expanded="false" />
-                    <element signature="e#6083#6168#0#PHP" expanded="false" />
-                    <element signature="n#LinkType#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Plant.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Plant.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.730769">
-                  <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Price.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Price.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.5384617">
-                  <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Specie.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Specie.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.38434783">
-                  <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Plant.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.65384614">
-                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.8461537">
-                  <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#285#417#0#PHP" expanded="false" />
-                    <element signature="e#493#654#0#PHP" expanded="false" />
-                    <element signature="e#606#654#0#PHP" expanded="false" />
-                    <element signature="e#816#910#0#PHP" expanded="false" />
-                    <element signature="e#1583#1826#0#PHP" expanded="false" />
-                    <element signature="n#loadClasses#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="e#2060#2551#0#PHP" expanded="false" />
-                    <element signature="e#2211#2475#0#PHP" expanded="false" />
-                    <element signature="e#2476#2551#0#PHP" expanded="false" />
-                    <element signature="e#2631#2798#0#PHP" expanded="false" />
-                    <element signature="e#2736#2798#0#PHP" expanded="false" />
-                    <element signature="e#2855#2953#0#PHP" expanded="false" />
-                    <element signature="e#2965#3134#0#PHP" expanded="false" />
-                    <element signature="e#3211#3478#0#PHP" expanded="false" />
-                    <element signature="e#3542#3659#0#PHP" expanded="false" />
-                    <element signature="e#3705#3842#0#PHP" expanded="false" />
-                    <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="e#3934#3999#0#PHP" expanded="false" />
-                    <element signature="n#getController#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="e#4089#4142#0#PHP" expanded="false" />
-                    <element signature="n#getAction#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="e#4229#4299#0#PHP" expanded="false" />
-                    <element signature="e#4612#4773#0#PHP" expanded="false" />
-                    <element signature="n#currentUser#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="e#4841#5153#0#PHP" expanded="false" />
-                    <element signature="e#4864#5143#0#PHP" expanded="false" />
-                    <element signature="e#5007#5143#0#PHP" expanded="false" />
-                    <element signature="e#5162#5283#0#PHP" expanded="false" />
-                    <element signature="e#5292#5436#0#PHP" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Model.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-21.423077">
-                  <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#7#83#0#PHP" expanded="false" />
-                    <element signature="n#getId#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="n#__construct#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#1461#1504#0#PHP" expanded="false" />
-                    <element signature="e#2079#4367#0#PHP" expanded="false" />
-                    <element signature="e#2090#2158#0#PHP" expanded="false" />
-                    <element signature="e#4228#4341#0#PHP" expanded="false" />
-                    <element signature="n#setId#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#4460#4516#0#PHP" expanded="false" />
-                    <element signature="n#__get#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#4632#5143#0#PHP" expanded="false" />
-                    <element signature="e#4871#5143#0#PHP" expanded="false" />
-                    <element signature="e#4931#5052#0#PHP" expanded="false" />
-                    <element signature="n#__set#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#5264#5790#0#PHP" expanded="false" />
-                    <element signature="e#5349#5440#0#PHP" expanded="false" />
-                    <element signature="e#5736#5790#0#PHP" expanded="false" />
-                    <element signature="n#__isset#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#5847#6172#0#PHP" expanded="false" />
-                    <element signature="e#6068#6172#0#PHP" expanded="false" />
-                    <element signature="e#6329#6691#0#PHP" expanded="false" />
-                    <element signature="e#6359#6681#0#PHP" expanded="false" />
-                    <element signature="e#6420#6667#0#PHP" expanded="false" />
-                    <element signature="e#6701#6802#0#PHP" expanded="false" />
-                    <element signature="e#6757#6802#0#PHP" expanded="false" />
-                    <element signature="e#6812#8255#0#PHP" expanded="false" />
-                    <element signature="e#6842#8245#0#PHP" expanded="false" />
-                    <element signature="e#6903#8231#0#PHP" expanded="false" />
-                    <element signature="e#6948#8213#0#PHP" expanded="false" />
-                    <element signature="e#6997#7595#0#PHP" expanded="false" />
-                    <element signature="e#7054#7560#0#PHP" expanded="false" />
-                    <element signature="e#7285#7560#0#PHP" expanded="false" />
-                    <element signature="e#7324#7530#0#PHP" expanded="false" />
-                    <element signature="e#7620#8191#0#PHP" expanded="false" />
-                    <element signature="e#7671#8156#0#PHP" expanded="false" />
-                    <element signature="e#7746#8126#0#PHP" expanded="false" />
-                    <element signature="e#8030#8126#0#PHP" expanded="false" />
-                    <element signature="n#update#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#8588#8662#0#PHP" expanded="false" />
-                    <element signature="n#insert#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#11473#11547#0#PHP" expanded="false" />
-                    <element signature="n#delete#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#12811#12864#0#PHP" expanded="false" />
-                    <element signature="e#12949#12993#0#PHP" expanded="false" />
-                    <element signature="e#13168#13264#0#PHP" expanded="false" />
-                    <element signature="n#deleteLinks#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#13458#16165#0#PHP" expanded="false" />
-                    <element signature="e#13506#16155#0#PHP" expanded="false" />
-                    <element signature="e#13547#16141#0#PHP" expanded="false" />
-                    <element signature="e#13592#14642#0#PHP" expanded="false" />
-                    <element signature="e#13718#13922#0#PHP" expanded="false" />
-                    <element signature="e#13949#14064#0#PHP" expanded="false" />
-                    <element signature="e#14156#14282#0#PHP" expanded="false" />
-                    <element signature="e#14285#14341#0#PHP" expanded="false" />
-                    <element signature="e#14663#16123#0#PHP" expanded="false" />
-                    <element signature="e#14783#15291#0#PHP" expanded="false" />
-                    <element signature="e#15318#15444#0#PHP" expanded="false" />
-                    <element signature="e#15766#15822#0#PHP" expanded="false" />
-                    <element signature="n#loadLink#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#16326#19949#0#PHP" expanded="false" />
-                    <element signature="e#16441#19939#0#PHP" expanded="false" />
-                    <element signature="e#16556#17676#0#PHP" expanded="false" />
-                    <element signature="e#16691#16801#0#PHP" expanded="false" />
-                    <element signature="e#16887#16996#0#PHP" expanded="false" />
-                    <element signature="e#17065#17175#0#PHP" expanded="false" />
-                    <element signature="e#17250#17649#0#PHP" expanded="false" />
-                    <element signature="e#17326#17537#0#PHP" expanded="false" />
-                    <element signature="e#17443#17537#0#PHP" expanded="false" />
-                    <element signature="e#17560#17649#0#PHP" expanded="false" />
-                    <element signature="e#17765#18419#0#PHP" expanded="false" />
-                    <element signature="e#17965#18075#0#PHP" expanded="false" />
-                    <element signature="e#18197#18392#0#PHP" expanded="false" />
-                    <element signature="e#18306#18392#0#PHP" expanded="false" />
-                    <element signature="e#18507#19925#0#PHP" expanded="false" />
-                    <element signature="e#18557#18732#0#PHP" expanded="false" />
-                    <element signature="e#18755#18873#0#PHP" expanded="false" />
-                    <element signature="e#18981#19084#0#PHP" expanded="false" />
-                    <element signature="e#19176#19278#0#PHP" expanded="false" />
-                    <element signature="e#19347#19450#0#PHP" expanded="false" />
-                    <element signature="e#19524#19898#0#PHP" expanded="false" />
-                    <element signature="e#19575#19786#0#PHP" expanded="false" />
-                    <element signature="e#19692#19786#0#PHP" expanded="false" />
-                    <element signature="e#19809#19898#0#PHP" expanded="false" />
-                    <element signature="n#link#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#20041#20747#0#PHP" expanded="false" />
-                    <element signature="e#20082#20622#0#PHP" expanded="false" />
-                    <element signature="e#20160#20452#0#PHP" expanded="false" />
-                    <element signature="e#20335#20452#0#PHP" expanded="false" />
-                    <element signature="e#20467#20622#0#PHP" expanded="false" />
-                    <element signature="e#20633#20747#0#PHP" expanded="false" />
-                    <element signature="n#setLink#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#20813#20913#0#PHP" expanded="false" />
-                    <element signature="n#setAutoload#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#21036#21416#0#PHP" expanded="false" />
-                    <element signature="e#21066#21406#0#PHP" expanded="false" />
-                    <element signature="e#21119#21392#0#PHP" expanded="false" />
-                    <element signature="e#21164#21277#0#PHP" expanded="false" />
-                    <element signature="e#21301#21392#0#PHP" expanded="false" />
-                    <element signature="n#setModelsAutoload#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#21523#21760#0#PHP" expanded="false" />
-                    <element signature="e#21560#21663#0#PHP" expanded="false" />
-                    <element signature="e#21679#21760#0#PHP" expanded="false" />
-                    <element signature="n#getFields#0;n#Model#0;n#!!top" expanded="true" />
-                    <element signature="e#21877#21921#0#PHP" expanded="false" />
-                    <element signature="n#getLinks#0;n#Model#0;n#!!top" expanded="true" />
-                    <marker date="1447915247289" expanded="false" signature="3052:3155" placeholder="SELECT * FRO..${static::TABLE}..." />
-                    <marker date="1447915247289" expanded="false" signature="3459:3702" placeholder="SELECT `l`.*..${static::TABLE}_lang..." />
-                    <marker date="1447915247289" expanded="false" signature="4112:4163" placeholder="SELECT * FRO..${static::TABLE}..." />
-                    <marker date="1447915247289" expanded="false" signature="7873:7992" placeholder="INSERT INTO `${{$link['table']}}`..." />
-                    <marker date="1447915247289" expanded="false" signature="8735:8834" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-                    <marker date="1447915247289" expanded="false" signature="9309:9376" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-                    <marker date="1447915247289" expanded="false" signature="9856:9944" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-                    <marker date="1447915247289" expanded="false" signature="10447:10514" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-                    <marker date="1447915247289" expanded="false" signature="11228:11263" placeholder="INSERT INTO `${static::TABLE}`..." />
-                    <marker date="1447915247289" expanded="false" signature="11612:11679" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-                    <marker date="1447915247289" expanded="false" signature="12115:12182" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-                    <marker date="1447915247289" expanded="false" signature="12885:12933" placeholder="DELETE FROM ..." />
-                    <marker date="1447915247289" expanded="false" signature="13038:13117" placeholder="DELETE FROM ..." />
-                    <marker date="1447915247289" expanded="false" signature="13732:13920" placeholder="SELECT `id` ..${$linkedModel::TABLE}..." />
-                    <marker date="1447915247289" expanded="false" signature="14167:14280" placeholder="DELETE FROM ..." />
-                    <marker date="1447915247289" expanded="false" signature="14418:14549" placeholder="DELETE FROM ..." />
-                    <marker date="1447915247289" expanded="false" signature="14797:15264" placeholder="SELECT `t0`...${{$link['table']}}..." />
-                    <marker date="1447915247289" expanded="false" signature="15547:15636" placeholder="DELETE FROM ..." />
-                    <marker date="1447915247289" expanded="false" signature="15676:15761" placeholder="DELETE FROM ..." />
-                    <marker date="1447915247289" expanded="false" signature="15899:16030" placeholder="DELETE FROM ..." />
-                    <marker date="1447915247289" expanded="false" signature="18571:18698" placeholder="SELECT `${{$..${{$link['table']}}..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Collection.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41391304">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#__construct#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#order#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#where#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#limit#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#link#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#items#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#addLink#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#joinLink#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#parseGraph#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#parseMainCondition#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#parseMainOrder#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#buildQuery#0;n#Collection#0;n#!!top" expanded="true" />
-                    <element signature="n#parseRow#0;n#Collection#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.653847">
+              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meta.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/chunks/meta.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.038462">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31282952">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+              <folding>
+                <marker date="1448603897653" expanded="true" signature="202:214" placeholder="..." />
+                <marker date="1448603897653" expanded="true" signature="234:255" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding>
+                <element signature="n#__construct#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#order#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#where#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#limit#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#link#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#items#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#addLink#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#joinLink#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#parseGraph#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#parseMainOrder#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#buildQuery#0;n#Collection#0;n#!!top" expanded="true" />
+                <element signature="n#parseRow#0;n#Collection#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.1923075">
+              <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
+              <folding>
+                <element signature="e#285#417#0#PHP" expanded="false" />
+                <element signature="e#493#654#0#PHP" expanded="false" />
+                <element signature="e#606#654#0#PHP" expanded="false" />
+                <element signature="e#816#910#0#PHP" expanded="false" />
+                <element signature="n#run#0;n#App#0;n#!!top" expanded="true" />
+                <element signature="e#1729#1972#0#PHP" expanded="false" />
+                <element signature="e#2624#2699#0#PHP" expanded="false" />
+                <element signature="e#2779#2946#0#PHP" expanded="false" />
+                <element signature="e#2884#2946#0#PHP" expanded="false" />
+                <element signature="e#3003#3101#0#PHP" expanded="false" />
+                <element signature="e#3113#3282#0#PHP" expanded="false" />
+                <element signature="e#3359#3626#0#PHP" expanded="false" />
+                <element signature="e#3690#3807#0#PHP" expanded="false" />
+                <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
+                <element signature="e#4082#4147#0#PHP" expanded="false" />
+                <element signature="e#4237#4290#0#PHP" expanded="false" />
+                <element signature="e#4377#4447#0#PHP" expanded="false" />
+                <element signature="e#4760#4921#0#PHP" expanded="false" />
+                <element signature="e#4989#5301#0#PHP" expanded="false" />
+                <element signature="e#5012#5291#0#PHP" expanded="false" />
+                <element signature="e#5155#5291#0#PHP" expanded="false" />
+                <element signature="e#5310#5431#0#PHP" expanded="false" />
+                <element signature="e#5440#5584#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -437,18 +279,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="D:/Projects/heap.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f36372ee-ec10-4b40-a22e-81d2481c0394/console.sql" />
         <option value="$PROJECT_DIR$/r.txt" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Exceptions.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Model.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/index.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/classes/DB.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/models/Price.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/application/models/Plant.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/models/Specie.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/plant.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/chunks/scripts.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/main_page.html" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/models/Plant.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/index.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Application.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/models/Description.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Model.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/index.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/chunks/meta.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/config.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/gallery.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/assets/css/main.css" />
       </list>
     </option>
   </component>
@@ -462,8 +317,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP-5.6" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="683" />
-    <option name="height" value="738" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -490,6 +347,248 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chunks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images_catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shlumb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images_catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rips" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images_catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images_catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoya" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images_catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images_catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -549,99 +648,19 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bmflowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bmflowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMFlowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bmflowers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\BMFlowers\www\bmflowers" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.bmf">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -702,33 +721,40 @@
       <option name="project" value="LOCAL" />
       <updated>1448253608154</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавлены модели PlantModel, PriceModel, SpecieModel">
+      <created>1448255324020</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1448255324020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="683" height="738" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24887556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30542636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24925596" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3658915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30497593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -745,7 +771,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="переделан класс для работы с БД" />
     <MESSAGE value="рефакторинг DB, добавлена возможность вызова хранимых процедур" />
-    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг DB, добавлена возможность вызова хранимых процедур" />
+    <MESSAGE value="добавлены модели PlantModel, PriceModel, SpecieModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены модели PlantModel, PriceModel, SpecieModel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,282 +782,22 @@
           <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#84#0#PHP" expanded="false" />
-            <element signature="e#210#450#0#PHP" expanded="false" />
-            <element signature="e#524#744#0#PHP" expanded="false" />
-            <element signature="e#602#702#0#PHP" expanded="false" />
-            <element signature="e#703#744#0#PHP" expanded="false" />
-            <element signature="e#756#851#0#PHP" expanded="false" />
-            <element signature="e#958#1241#0#PHP" expanded="false" />
-            <element signature="e#1323#1551#0#PHP" expanded="false" />
-            <element signature="e#1404#1509#0#PHP" expanded="false" />
-            <element signature="e#1510#1551#0#PHP" expanded="false" />
-            <element signature="e#1563#1672#0#PHP" expanded="false" />
-            <element signature="e#1785#1832#0#PHP" expanded="false" />
-            <element signature="e#1877#1928#0#PHP" expanded="false" />
-            <element signature="e#1988#2075#0#PHP" expanded="false" />
-            <element signature="n#redirect#0;n#Controller#0;n#!!top" expanded="true" />
-            <element signature="e#2186#2245#0#PHP" expanded="false" />
-            <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Exceptions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="9" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
-          <folding>
-            <element signature="e#117#496#0#PHP" expanded="false" />
-            <element signature="e#625#692#0#PHP" expanded="false" />
-            <element signature="e#791#1122#0#PHP" expanded="false" />
-            <element signature="e#1254#1513#0#PHP" expanded="false" />
-            <element signature="e#1313#1403#0#PHP" expanded="false" />
-            <element signature="e#1417#1513#0#PHP" expanded="false" />
-            <element signature="e#1526#1929#0#PHP" expanded="false" />
-            <element signature="e#2023#2580#0#PHP" expanded="false" />
-            <element signature="e#2125#2207#0#PHP" expanded="false" />
-            <element signature="e#2218#2580#0#PHP" expanded="false" />
-            <element signature="e#2284#2403#0#PHP" expanded="false" />
-            <element signature="e#2444#2538#0#PHP" expanded="false" />
-            <element signature="e#2615#3142#0#PHP" expanded="false" />
-            <element signature="e#3256#3367#0#PHP" expanded="false" />
-            <element signature="e#3400#3595#0#PHP" expanded="false" />
-            <element signature="e#3522#3595#0#PHP" expanded="false" />
-            <element signature="e#3607#4144#0#PHP" expanded="false" />
-            <element signature="e#4256#4367#0#PHP" expanded="false" />
-            <element signature="e#4400#4593#0#PHP" expanded="false" />
-            <element signature="e#4520#4593#0#PHP" expanded="false" />
-            <element signature="e#4605#5100#0#PHP" expanded="false" />
-            <element signature="e#5255#5366#0#PHP" expanded="false" />
-            <element signature="e#5399#5589#0#PHP" expanded="false" />
-            <element signature="e#5455#5579#0#PHP" expanded="false" />
-            <element signature="e#5526#5579#0#PHP" expanded="false" />
-            <element signature="e#5652#5753#0#PHP" expanded="false" />
-            <element signature="e#5850#5921#0#PHP" expanded="false" />
-            <element signature="n#DataType#0;n#!!top" expanded="false" />
-            <element signature="e#6083#6168#0#PHP" expanded="false" />
-            <element signature="n#LinkType#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#285#417#0#PHP" expanded="false" />
-            <element signature="e#493#654#0#PHP" expanded="false" />
-            <element signature="e#606#654#0#PHP" expanded="false" />
-            <element signature="e#816#910#0#PHP" expanded="false" />
-            <element signature="e#1583#1826#0#PHP" expanded="false" />
-            <element signature="n#loadClasses#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#2060#2551#0#PHP" expanded="false" />
-            <element signature="e#2211#2475#0#PHP" expanded="false" />
-            <element signature="e#2476#2551#0#PHP" expanded="false" />
-            <element signature="e#2631#2798#0#PHP" expanded="false" />
-            <element signature="e#2736#2798#0#PHP" expanded="false" />
-            <element signature="e#2855#2953#0#PHP" expanded="false" />
-            <element signature="e#2965#3134#0#PHP" expanded="false" />
-            <element signature="e#3211#3478#0#PHP" expanded="false" />
-            <element signature="e#3542#3659#0#PHP" expanded="false" />
-            <element signature="e#3705#3842#0#PHP" expanded="false" />
-            <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#3934#3999#0#PHP" expanded="false" />
-            <element signature="n#getController#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4089#4142#0#PHP" expanded="false" />
-            <element signature="n#getAction#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4229#4299#0#PHP" expanded="false" />
-            <element signature="e#4612#4773#0#PHP" expanded="false" />
-            <element signature="n#currentUser#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4841#5153#0#PHP" expanded="false" />
-            <element signature="e#4864#5143#0#PHP" expanded="false" />
-            <element signature="e#5007#5143#0#PHP" expanded="false" />
-            <element signature="e#5162#5283#0#PHP" expanded="false" />
-            <element signature="e#5292#5436#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-          <folding>
-            <element signature="e#7#83#0#PHP" expanded="false" />
-            <element signature="n#getId#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#__construct#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#1461#1504#0#PHP" expanded="false" />
-            <element signature="e#2079#4367#0#PHP" expanded="false" />
-            <element signature="e#2090#2158#0#PHP" expanded="false" />
-            <element signature="e#4228#4341#0#PHP" expanded="false" />
-            <element signature="n#setId#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#4460#4516#0#PHP" expanded="false" />
-            <element signature="n#__get#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#4632#5143#0#PHP" expanded="false" />
-            <element signature="e#4871#5143#0#PHP" expanded="false" />
-            <element signature="e#4931#5052#0#PHP" expanded="false" />
-            <element signature="n#__set#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#5264#5790#0#PHP" expanded="false" />
-            <element signature="e#5349#5440#0#PHP" expanded="false" />
-            <element signature="e#5736#5790#0#PHP" expanded="false" />
-            <element signature="n#__isset#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#5847#6172#0#PHP" expanded="false" />
-            <element signature="e#6068#6172#0#PHP" expanded="false" />
-            <element signature="e#6329#6691#0#PHP" expanded="false" />
-            <element signature="e#6359#6681#0#PHP" expanded="false" />
-            <element signature="e#6420#6667#0#PHP" expanded="false" />
-            <element signature="e#6701#6802#0#PHP" expanded="false" />
-            <element signature="e#6757#6802#0#PHP" expanded="false" />
-            <element signature="e#6812#8255#0#PHP" expanded="false" />
-            <element signature="e#6842#8245#0#PHP" expanded="false" />
-            <element signature="e#6903#8231#0#PHP" expanded="false" />
-            <element signature="e#6948#8213#0#PHP" expanded="false" />
-            <element signature="e#6997#7595#0#PHP" expanded="false" />
-            <element signature="e#7054#7560#0#PHP" expanded="false" />
-            <element signature="e#7285#7560#0#PHP" expanded="false" />
-            <element signature="e#7324#7530#0#PHP" expanded="false" />
-            <element signature="e#7620#8191#0#PHP" expanded="false" />
-            <element signature="e#7671#8156#0#PHP" expanded="false" />
-            <element signature="e#7746#8126#0#PHP" expanded="false" />
-            <element signature="e#8030#8126#0#PHP" expanded="false" />
-            <element signature="n#update#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#8588#8662#0#PHP" expanded="false" />
-            <element signature="n#insert#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#11473#11547#0#PHP" expanded="false" />
-            <element signature="n#delete#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#12811#12864#0#PHP" expanded="false" />
-            <element signature="e#12949#12993#0#PHP" expanded="false" />
-            <element signature="e#13168#13264#0#PHP" expanded="false" />
-            <element signature="n#deleteLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#13458#16165#0#PHP" expanded="false" />
-            <element signature="e#13506#16155#0#PHP" expanded="false" />
-            <element signature="e#13547#16141#0#PHP" expanded="false" />
-            <element signature="e#13592#14642#0#PHP" expanded="false" />
-            <element signature="e#13718#13922#0#PHP" expanded="false" />
-            <element signature="e#13949#14064#0#PHP" expanded="false" />
-            <element signature="e#14156#14282#0#PHP" expanded="false" />
-            <element signature="e#14285#14341#0#PHP" expanded="false" />
-            <element signature="e#14663#16123#0#PHP" expanded="false" />
-            <element signature="e#14783#15291#0#PHP" expanded="false" />
-            <element signature="e#15318#15444#0#PHP" expanded="false" />
-            <element signature="e#15766#15822#0#PHP" expanded="false" />
-            <element signature="n#loadLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#16326#19949#0#PHP" expanded="false" />
-            <element signature="e#16441#19939#0#PHP" expanded="false" />
-            <element signature="e#16556#17676#0#PHP" expanded="false" />
-            <element signature="e#16691#16801#0#PHP" expanded="false" />
-            <element signature="e#16887#16996#0#PHP" expanded="false" />
-            <element signature="e#17065#17175#0#PHP" expanded="false" />
-            <element signature="e#17250#17649#0#PHP" expanded="false" />
-            <element signature="e#17326#17537#0#PHP" expanded="false" />
-            <element signature="e#17443#17537#0#PHP" expanded="false" />
-            <element signature="e#17560#17649#0#PHP" expanded="false" />
-            <element signature="e#17765#18419#0#PHP" expanded="false" />
-            <element signature="e#17965#18075#0#PHP" expanded="false" />
-            <element signature="e#18197#18392#0#PHP" expanded="false" />
-            <element signature="e#18306#18392#0#PHP" expanded="false" />
-            <element signature="e#18507#19925#0#PHP" expanded="false" />
-            <element signature="e#18557#18732#0#PHP" expanded="false" />
-            <element signature="e#18755#18873#0#PHP" expanded="false" />
-            <element signature="e#18981#19084#0#PHP" expanded="false" />
-            <element signature="e#19176#19278#0#PHP" expanded="false" />
-            <element signature="e#19347#19450#0#PHP" expanded="false" />
-            <element signature="e#19524#19898#0#PHP" expanded="false" />
-            <element signature="e#19575#19786#0#PHP" expanded="false" />
-            <element signature="e#19692#19786#0#PHP" expanded="false" />
-            <element signature="e#19809#19898#0#PHP" expanded="false" />
-            <element signature="n#link#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#20041#20747#0#PHP" expanded="false" />
-            <element signature="e#20082#20622#0#PHP" expanded="false" />
-            <element signature="e#20160#20452#0#PHP" expanded="false" />
-            <element signature="e#20335#20452#0#PHP" expanded="false" />
-            <element signature="e#20467#20622#0#PHP" expanded="false" />
-            <element signature="e#20633#20747#0#PHP" expanded="false" />
-            <element signature="n#setLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#20813#20913#0#PHP" expanded="false" />
-            <element signature="n#setAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21036#21416#0#PHP" expanded="false" />
-            <element signature="e#21066#21406#0#PHP" expanded="false" />
-            <element signature="e#21119#21392#0#PHP" expanded="false" />
-            <element signature="e#21164#21277#0#PHP" expanded="false" />
-            <element signature="e#21301#21392#0#PHP" expanded="false" />
-            <element signature="n#setModelsAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21523#21760#0#PHP" expanded="false" />
-            <element signature="e#21560#21663#0#PHP" expanded="false" />
-            <element signature="e#21679#21760#0#PHP" expanded="false" />
-            <element signature="n#getFields#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21877#21921#0#PHP" expanded="false" />
-            <element signature="n#getLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <marker date="1447915247289" expanded="false" signature="3052:3155" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="3459:3702" placeholder="SELECT `l`.*..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="4112:4163" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="7873:7992" placeholder="INSERT INTO `${{$link['table']}}`..." />
-            <marker date="1447915247289" expanded="false" signature="8735:8834" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="9309:9376" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="9856:9944" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="10447:10514" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="11228:11263" placeholder="INSERT INTO `${static::TABLE}`..." />
-            <marker date="1447915247289" expanded="false" signature="11612:11679" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="12115:12182" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="12885:12933" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="13038:13117" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="13732:13920" placeholder="SELECT `id` ..${$linkedModel::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="14167:14280" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="14418:14549" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="14797:15264" placeholder="SELECT `t0`...${{$link['table']}}..." />
-            <marker date="1447915247289" expanded="false" signature="15547:15636" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="15676:15761" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="15899:16030" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="18571:18698" placeholder="SELECT `${{$..${{$link['table']}}..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/r.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1045,299 +812,6 @@
             <element signature="n#addLink#0;n#Collection#0;n#!!top" expanded="true" />
             <element signature="n#joinLink#0;n#Collection#0;n#!!top" expanded="true" />
             <element signature="n#parseGraph#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseMainCondition#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseMainOrder#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#buildQuery#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseRow#0;n#Collection#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#84#0#PHP" expanded="false" />
-            <element signature="e#210#450#0#PHP" expanded="false" />
-            <element signature="e#524#744#0#PHP" expanded="false" />
-            <element signature="e#602#702#0#PHP" expanded="false" />
-            <element signature="e#703#744#0#PHP" expanded="false" />
-            <element signature="e#756#851#0#PHP" expanded="false" />
-            <element signature="e#958#1241#0#PHP" expanded="false" />
-            <element signature="e#1323#1551#0#PHP" expanded="false" />
-            <element signature="e#1404#1509#0#PHP" expanded="false" />
-            <element signature="e#1510#1551#0#PHP" expanded="false" />
-            <element signature="e#1563#1672#0#PHP" expanded="false" />
-            <element signature="e#1785#1832#0#PHP" expanded="false" />
-            <element signature="e#1877#1928#0#PHP" expanded="false" />
-            <element signature="e#1988#2075#0#PHP" expanded="false" />
-            <element signature="n#redirect#0;n#Controller#0;n#!!top" expanded="true" />
-            <element signature="e#2186#2245#0#PHP" expanded="false" />
-            <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Exceptions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="9" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
-          <folding>
-            <element signature="e#117#496#0#PHP" expanded="false" />
-            <element signature="e#625#692#0#PHP" expanded="false" />
-            <element signature="e#791#1122#0#PHP" expanded="false" />
-            <element signature="e#1254#1513#0#PHP" expanded="false" />
-            <element signature="e#1313#1403#0#PHP" expanded="false" />
-            <element signature="e#1417#1513#0#PHP" expanded="false" />
-            <element signature="e#1526#1929#0#PHP" expanded="false" />
-            <element signature="e#2023#2580#0#PHP" expanded="false" />
-            <element signature="e#2125#2207#0#PHP" expanded="false" />
-            <element signature="e#2218#2580#0#PHP" expanded="false" />
-            <element signature="e#2284#2403#0#PHP" expanded="false" />
-            <element signature="e#2444#2538#0#PHP" expanded="false" />
-            <element signature="e#2615#3142#0#PHP" expanded="false" />
-            <element signature="e#3256#3367#0#PHP" expanded="false" />
-            <element signature="e#3400#3595#0#PHP" expanded="false" />
-            <element signature="e#3522#3595#0#PHP" expanded="false" />
-            <element signature="e#3607#4144#0#PHP" expanded="false" />
-            <element signature="e#4256#4367#0#PHP" expanded="false" />
-            <element signature="e#4400#4593#0#PHP" expanded="false" />
-            <element signature="e#4520#4593#0#PHP" expanded="false" />
-            <element signature="e#4605#5100#0#PHP" expanded="false" />
-            <element signature="e#5255#5366#0#PHP" expanded="false" />
-            <element signature="e#5399#5589#0#PHP" expanded="false" />
-            <element signature="e#5455#5579#0#PHP" expanded="false" />
-            <element signature="e#5526#5579#0#PHP" expanded="false" />
-            <element signature="e#5652#5753#0#PHP" expanded="false" />
-            <element signature="e#5850#5921#0#PHP" expanded="false" />
-            <element signature="n#DataType#0;n#!!top" expanded="false" />
-            <element signature="e#6083#6168#0#PHP" expanded="false" />
-            <element signature="n#LinkType#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#285#417#0#PHP" expanded="false" />
-            <element signature="e#493#654#0#PHP" expanded="false" />
-            <element signature="e#606#654#0#PHP" expanded="false" />
-            <element signature="e#816#910#0#PHP" expanded="false" />
-            <element signature="e#1583#1826#0#PHP" expanded="false" />
-            <element signature="n#loadClasses#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#2060#2551#0#PHP" expanded="false" />
-            <element signature="e#2211#2475#0#PHP" expanded="false" />
-            <element signature="e#2476#2551#0#PHP" expanded="false" />
-            <element signature="e#2631#2798#0#PHP" expanded="false" />
-            <element signature="e#2736#2798#0#PHP" expanded="false" />
-            <element signature="e#2855#2953#0#PHP" expanded="false" />
-            <element signature="e#2965#3134#0#PHP" expanded="false" />
-            <element signature="e#3211#3478#0#PHP" expanded="false" />
-            <element signature="e#3542#3659#0#PHP" expanded="false" />
-            <element signature="e#3705#3842#0#PHP" expanded="false" />
-            <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#3934#3999#0#PHP" expanded="false" />
-            <element signature="n#getController#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4089#4142#0#PHP" expanded="false" />
-            <element signature="n#getAction#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4229#4299#0#PHP" expanded="false" />
-            <element signature="e#4612#4773#0#PHP" expanded="false" />
-            <element signature="n#currentUser#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4841#5153#0#PHP" expanded="false" />
-            <element signature="e#4864#5143#0#PHP" expanded="false" />
-            <element signature="e#5007#5143#0#PHP" expanded="false" />
-            <element signature="e#5162#5283#0#PHP" expanded="false" />
-            <element signature="e#5292#5436#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-          <folding>
-            <element signature="e#7#83#0#PHP" expanded="false" />
-            <element signature="n#getId#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#__construct#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#1461#1504#0#PHP" expanded="false" />
-            <element signature="e#2079#4367#0#PHP" expanded="false" />
-            <element signature="e#2090#2158#0#PHP" expanded="false" />
-            <element signature="e#4228#4341#0#PHP" expanded="false" />
-            <element signature="n#setId#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#4460#4516#0#PHP" expanded="false" />
-            <element signature="n#__get#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#4632#5143#0#PHP" expanded="false" />
-            <element signature="e#4871#5143#0#PHP" expanded="false" />
-            <element signature="e#4931#5052#0#PHP" expanded="false" />
-            <element signature="n#__set#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#5264#5790#0#PHP" expanded="false" />
-            <element signature="e#5349#5440#0#PHP" expanded="false" />
-            <element signature="e#5736#5790#0#PHP" expanded="false" />
-            <element signature="n#__isset#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#5847#6172#0#PHP" expanded="false" />
-            <element signature="e#6068#6172#0#PHP" expanded="false" />
-            <element signature="e#6329#6691#0#PHP" expanded="false" />
-            <element signature="e#6359#6681#0#PHP" expanded="false" />
-            <element signature="e#6420#6667#0#PHP" expanded="false" />
-            <element signature="e#6701#6802#0#PHP" expanded="false" />
-            <element signature="e#6757#6802#0#PHP" expanded="false" />
-            <element signature="e#6812#8255#0#PHP" expanded="false" />
-            <element signature="e#6842#8245#0#PHP" expanded="false" />
-            <element signature="e#6903#8231#0#PHP" expanded="false" />
-            <element signature="e#6948#8213#0#PHP" expanded="false" />
-            <element signature="e#6997#7595#0#PHP" expanded="false" />
-            <element signature="e#7054#7560#0#PHP" expanded="false" />
-            <element signature="e#7285#7560#0#PHP" expanded="false" />
-            <element signature="e#7324#7530#0#PHP" expanded="false" />
-            <element signature="e#7620#8191#0#PHP" expanded="false" />
-            <element signature="e#7671#8156#0#PHP" expanded="false" />
-            <element signature="e#7746#8126#0#PHP" expanded="false" />
-            <element signature="e#8030#8126#0#PHP" expanded="false" />
-            <element signature="n#update#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#8588#8662#0#PHP" expanded="false" />
-            <element signature="n#insert#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#11473#11547#0#PHP" expanded="false" />
-            <element signature="n#delete#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#12811#12864#0#PHP" expanded="false" />
-            <element signature="e#12949#12993#0#PHP" expanded="false" />
-            <element signature="e#13168#13264#0#PHP" expanded="false" />
-            <element signature="n#deleteLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#13458#16165#0#PHP" expanded="false" />
-            <element signature="e#13506#16155#0#PHP" expanded="false" />
-            <element signature="e#13547#16141#0#PHP" expanded="false" />
-            <element signature="e#13592#14642#0#PHP" expanded="false" />
-            <element signature="e#13718#13922#0#PHP" expanded="false" />
-            <element signature="e#13949#14064#0#PHP" expanded="false" />
-            <element signature="e#14156#14282#0#PHP" expanded="false" />
-            <element signature="e#14285#14341#0#PHP" expanded="false" />
-            <element signature="e#14663#16123#0#PHP" expanded="false" />
-            <element signature="e#14783#15291#0#PHP" expanded="false" />
-            <element signature="e#15318#15444#0#PHP" expanded="false" />
-            <element signature="e#15766#15822#0#PHP" expanded="false" />
-            <element signature="n#loadLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#16326#19949#0#PHP" expanded="false" />
-            <element signature="e#16441#19939#0#PHP" expanded="false" />
-            <element signature="e#16556#17676#0#PHP" expanded="false" />
-            <element signature="e#16691#16801#0#PHP" expanded="false" />
-            <element signature="e#16887#16996#0#PHP" expanded="false" />
-            <element signature="e#17065#17175#0#PHP" expanded="false" />
-            <element signature="e#17250#17649#0#PHP" expanded="false" />
-            <element signature="e#17326#17537#0#PHP" expanded="false" />
-            <element signature="e#17443#17537#0#PHP" expanded="false" />
-            <element signature="e#17560#17649#0#PHP" expanded="false" />
-            <element signature="e#17765#18419#0#PHP" expanded="false" />
-            <element signature="e#17965#18075#0#PHP" expanded="false" />
-            <element signature="e#18197#18392#0#PHP" expanded="false" />
-            <element signature="e#18306#18392#0#PHP" expanded="false" />
-            <element signature="e#18507#19925#0#PHP" expanded="false" />
-            <element signature="e#18557#18732#0#PHP" expanded="false" />
-            <element signature="e#18755#18873#0#PHP" expanded="false" />
-            <element signature="e#18981#19084#0#PHP" expanded="false" />
-            <element signature="e#19176#19278#0#PHP" expanded="false" />
-            <element signature="e#19347#19450#0#PHP" expanded="false" />
-            <element signature="e#19524#19898#0#PHP" expanded="false" />
-            <element signature="e#19575#19786#0#PHP" expanded="false" />
-            <element signature="e#19692#19786#0#PHP" expanded="false" />
-            <element signature="e#19809#19898#0#PHP" expanded="false" />
-            <element signature="n#link#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#20041#20747#0#PHP" expanded="false" />
-            <element signature="e#20082#20622#0#PHP" expanded="false" />
-            <element signature="e#20160#20452#0#PHP" expanded="false" />
-            <element signature="e#20335#20452#0#PHP" expanded="false" />
-            <element signature="e#20467#20622#0#PHP" expanded="false" />
-            <element signature="e#20633#20747#0#PHP" expanded="false" />
-            <element signature="n#setLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#20813#20913#0#PHP" expanded="false" />
-            <element signature="n#setAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21036#21416#0#PHP" expanded="false" />
-            <element signature="e#21066#21406#0#PHP" expanded="false" />
-            <element signature="e#21119#21392#0#PHP" expanded="false" />
-            <element signature="e#21164#21277#0#PHP" expanded="false" />
-            <element signature="e#21301#21392#0#PHP" expanded="false" />
-            <element signature="n#setModelsAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21523#21760#0#PHP" expanded="false" />
-            <element signature="e#21560#21663#0#PHP" expanded="false" />
-            <element signature="e#21679#21760#0#PHP" expanded="false" />
-            <element signature="n#getFields#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21877#21921#0#PHP" expanded="false" />
-            <element signature="n#getLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <marker date="1447915247289" expanded="false" signature="3052:3155" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="3459:3702" placeholder="SELECT `l`.*..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="4112:4163" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="7873:7992" placeholder="INSERT INTO `${{$link['table']}}`..." />
-            <marker date="1447915247289" expanded="false" signature="8735:8834" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="9309:9376" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="9856:9944" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="10447:10514" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="11228:11263" placeholder="INSERT INTO `${static::TABLE}`..." />
-            <marker date="1447915247289" expanded="false" signature="11612:11679" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="12115:12182" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="12885:12933" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="13038:13117" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="13732:13920" placeholder="SELECT `id` ..${$linkedModel::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="14167:14280" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="14418:14549" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="14797:15264" placeholder="SELECT `t0`...${{$link['table']}}..." />
-            <marker date="1447915247289" expanded="false" signature="15547:15636" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="15676:15761" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="15899:16030" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="18571:18698" placeholder="SELECT `${{$..${{$link['table']}}..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/r.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#__construct#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#order#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#where#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#limit#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#link#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#items#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#addLink#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#joinLink#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseGraph#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseMainCondition#0;n#Collection#0;n#!!top" expanded="true" />
             <element signature="n#parseMainOrder#0;n#Collection#0;n#!!top" expanded="true" />
             <element signature="n#buildQuery#0;n#Collection#0;n#!!top" expanded="true" />
             <element signature="n#parseRow#0;n#Collection#0;n#!!top" expanded="true" />
@@ -1352,21 +826,21 @@
           <folding>
             <element signature="e#7#84#0#PHP" expanded="false" />
             <element signature="e#210#450#0#PHP" expanded="false" />
+            <element signature="n#templateVar#0;n#Controller#0;n#!!top" expanded="true" />
             <element signature="e#524#744#0#PHP" expanded="false" />
             <element signature="e#602#702#0#PHP" expanded="false" />
             <element signature="e#703#744#0#PHP" expanded="false" />
             <element signature="e#756#851#0#PHP" expanded="false" />
-            <element signature="e#958#1241#0#PHP" expanded="false" />
             <element signature="e#1323#1551#0#PHP" expanded="false" />
             <element signature="e#1404#1509#0#PHP" expanded="false" />
             <element signature="e#1510#1551#0#PHP" expanded="false" />
             <element signature="e#1563#1672#0#PHP" expanded="false" />
             <element signature="e#1785#1832#0#PHP" expanded="false" />
             <element signature="e#1877#1928#0#PHP" expanded="false" />
-            <element signature="e#1988#2075#0#PHP" expanded="false" />
             <element signature="n#redirect#0;n#Controller#0;n#!!top" expanded="true" />
             <element signature="e#2186#2245#0#PHP" expanded="false" />
             <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
+            <element signature="n#displayPage#0;n#Controller#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1422,134 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="477" column="29" selection-start-line="477" selection-start-column="27" selection-end-line="477" selection-end-column="29" />
-          <folding>
-            <element signature="e#7#83#0#PHP" expanded="false" />
-            <element signature="n#getId#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#__construct#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#1461#1504#0#PHP" expanded="false" />
-            <element signature="e#2079#4367#0#PHP" expanded="false" />
-            <element signature="e#2090#2158#0#PHP" expanded="false" />
-            <element signature="e#4228#4341#0#PHP" expanded="false" />
-            <element signature="n#setId#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#4460#4516#0#PHP" expanded="false" />
-            <element signature="n#__get#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#4632#5143#0#PHP" expanded="false" />
-            <element signature="e#4871#5143#0#PHP" expanded="false" />
-            <element signature="e#4931#5052#0#PHP" expanded="false" />
-            <element signature="n#__set#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#5264#5790#0#PHP" expanded="false" />
-            <element signature="e#5349#5440#0#PHP" expanded="false" />
-            <element signature="e#5736#5790#0#PHP" expanded="false" />
-            <element signature="n#__isset#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#5847#6172#0#PHP" expanded="false" />
-            <element signature="e#6068#6172#0#PHP" expanded="false" />
-            <element signature="e#6329#6691#0#PHP" expanded="false" />
-            <element signature="e#6359#6681#0#PHP" expanded="false" />
-            <element signature="e#6420#6667#0#PHP" expanded="false" />
-            <element signature="e#6701#6802#0#PHP" expanded="false" />
-            <element signature="e#6757#6802#0#PHP" expanded="false" />
-            <element signature="e#6812#8255#0#PHP" expanded="false" />
-            <element signature="e#6842#8245#0#PHP" expanded="false" />
-            <element signature="e#6903#8231#0#PHP" expanded="false" />
-            <element signature="e#6948#8213#0#PHP" expanded="false" />
-            <element signature="e#6997#7595#0#PHP" expanded="false" />
-            <element signature="e#7054#7560#0#PHP" expanded="false" />
-            <element signature="e#7285#7560#0#PHP" expanded="false" />
-            <element signature="e#7324#7530#0#PHP" expanded="false" />
-            <element signature="e#7620#8191#0#PHP" expanded="false" />
-            <element signature="e#7671#8156#0#PHP" expanded="false" />
-            <element signature="e#7746#8126#0#PHP" expanded="false" />
-            <element signature="e#8030#8126#0#PHP" expanded="false" />
-            <element signature="n#update#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#8588#8662#0#PHP" expanded="false" />
-            <element signature="n#insert#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#11473#11547#0#PHP" expanded="false" />
-            <element signature="n#delete#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#12811#12864#0#PHP" expanded="false" />
-            <element signature="e#12949#12993#0#PHP" expanded="false" />
-            <element signature="e#13168#13264#0#PHP" expanded="false" />
-            <element signature="n#deleteLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#13458#16165#0#PHP" expanded="false" />
-            <element signature="e#13506#16155#0#PHP" expanded="false" />
-            <element signature="e#13547#16141#0#PHP" expanded="false" />
-            <element signature="e#13592#14642#0#PHP" expanded="false" />
-            <element signature="e#13718#13922#0#PHP" expanded="false" />
-            <element signature="e#13949#14064#0#PHP" expanded="false" />
-            <element signature="e#14156#14282#0#PHP" expanded="false" />
-            <element signature="e#14285#14341#0#PHP" expanded="false" />
-            <element signature="e#14663#16123#0#PHP" expanded="false" />
-            <element signature="e#14783#15291#0#PHP" expanded="false" />
-            <element signature="e#15318#15444#0#PHP" expanded="false" />
-            <element signature="e#15766#15822#0#PHP" expanded="false" />
-            <element signature="n#loadLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#16326#19949#0#PHP" expanded="false" />
-            <element signature="e#16441#19939#0#PHP" expanded="false" />
-            <element signature="e#16556#17676#0#PHP" expanded="false" />
-            <element signature="e#16691#16801#0#PHP" expanded="false" />
-            <element signature="e#16887#16996#0#PHP" expanded="false" />
-            <element signature="e#17065#17175#0#PHP" expanded="false" />
-            <element signature="e#17250#17649#0#PHP" expanded="false" />
-            <element signature="e#17326#17537#0#PHP" expanded="false" />
-            <element signature="e#17443#17537#0#PHP" expanded="false" />
-            <element signature="e#17560#17649#0#PHP" expanded="false" />
-            <element signature="e#17765#18419#0#PHP" expanded="false" />
-            <element signature="e#17965#18075#0#PHP" expanded="false" />
-            <element signature="e#18197#18392#0#PHP" expanded="false" />
-            <element signature="e#18306#18392#0#PHP" expanded="false" />
-            <element signature="e#18507#19925#0#PHP" expanded="false" />
-            <element signature="e#18557#18732#0#PHP" expanded="false" />
-            <element signature="e#18755#18873#0#PHP" expanded="false" />
-            <element signature="e#18981#19084#0#PHP" expanded="false" />
-            <element signature="e#19176#19278#0#PHP" expanded="false" />
-            <element signature="e#19347#19450#0#PHP" expanded="false" />
-            <element signature="e#19524#19898#0#PHP" expanded="false" />
-            <element signature="e#19575#19786#0#PHP" expanded="false" />
-            <element signature="e#19692#19786#0#PHP" expanded="false" />
-            <element signature="e#19809#19898#0#PHP" expanded="false" />
-            <element signature="n#link#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#20041#20747#0#PHP" expanded="false" />
-            <element signature="e#20082#20622#0#PHP" expanded="false" />
-            <element signature="e#20160#20452#0#PHP" expanded="false" />
-            <element signature="e#20335#20452#0#PHP" expanded="false" />
-            <element signature="e#20467#20622#0#PHP" expanded="false" />
-            <element signature="e#20633#20747#0#PHP" expanded="false" />
-            <element signature="n#setLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#20813#20913#0#PHP" expanded="false" />
-            <element signature="n#setAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21036#21416#0#PHP" expanded="false" />
-            <element signature="e#21066#21406#0#PHP" expanded="false" />
-            <element signature="e#21119#21392#0#PHP" expanded="false" />
-            <element signature="e#21164#21277#0#PHP" expanded="false" />
-            <element signature="e#21301#21392#0#PHP" expanded="false" />
-            <element signature="n#setModelsAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21523#21760#0#PHP" expanded="false" />
-            <element signature="e#21560#21663#0#PHP" expanded="false" />
-            <element signature="e#21679#21760#0#PHP" expanded="false" />
-            <element signature="n#getFields#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21877#21921#0#PHP" expanded="false" />
-            <element signature="n#getLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <marker date="1447915247289" expanded="false" signature="3052:3155" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="3459:3702" placeholder="SELECT `l`.*..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="4112:4163" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="7873:7992" placeholder="INSERT INTO `${{$link['table']}}`..." />
-            <marker date="1447915247289" expanded="false" signature="8735:8834" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="9309:9376" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="9856:9944" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="10447:10514" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="11228:11263" placeholder="INSERT INTO `${static::TABLE}`..." />
-            <marker date="1447915247289" expanded="false" signature="11612:11679" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="12115:12182" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="12885:12933" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="13038:13117" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="13732:13920" placeholder="SELECT `id` ..${$linkedModel::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="14167:14280" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="14418:14549" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="14797:15264" placeholder="SELECT `t0`...${{$link['table']}}..." />
-            <marker date="1447915247289" expanded="false" signature="15547:15636" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="15676:15761" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="15899:16030" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="18571:18698" placeholder="SELECT `${{$..${{$link['table']}}..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1560,21 +906,21 @@
           <folding>
             <element signature="e#7#84#0#PHP" expanded="false" />
             <element signature="e#210#450#0#PHP" expanded="false" />
+            <element signature="n#templateVar#0;n#Controller#0;n#!!top" expanded="true" />
             <element signature="e#524#744#0#PHP" expanded="false" />
             <element signature="e#602#702#0#PHP" expanded="false" />
             <element signature="e#703#744#0#PHP" expanded="false" />
             <element signature="e#756#851#0#PHP" expanded="false" />
-            <element signature="e#958#1241#0#PHP" expanded="false" />
             <element signature="e#1323#1551#0#PHP" expanded="false" />
             <element signature="e#1404#1509#0#PHP" expanded="false" />
             <element signature="e#1510#1551#0#PHP" expanded="false" />
             <element signature="e#1563#1672#0#PHP" expanded="false" />
             <element signature="e#1785#1832#0#PHP" expanded="false" />
             <element signature="e#1877#1928#0#PHP" expanded="false" />
-            <element signature="e#1988#2075#0#PHP" expanded="false" />
             <element signature="n#redirect#0;n#Controller#0;n#!!top" expanded="true" />
             <element signature="e#2186#2245#0#PHP" expanded="false" />
             <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
+            <element signature="n#displayPage#0;n#Controller#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1583,13 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19286872">
           <caret line="1440" column="20" selection-start-line="1440" selection-start-column="20" selection-end-line="1440" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18781726">
-          <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1618,53 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#285#417#0#PHP" expanded="false" />
-            <element signature="e#493#654#0#PHP" expanded="false" />
-            <element signature="e#606#654#0#PHP" expanded="false" />
-            <element signature="e#816#910#0#PHP" expanded="false" />
-            <element signature="e#1583#1826#0#PHP" expanded="false" />
-            <element signature="n#loadClasses#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#2060#2551#0#PHP" expanded="false" />
-            <element signature="e#2211#2475#0#PHP" expanded="false" />
-            <element signature="e#2476#2551#0#PHP" expanded="false" />
-            <element signature="e#2631#2798#0#PHP" expanded="false" />
-            <element signature="e#2736#2798#0#PHP" expanded="false" />
-            <element signature="e#2855#2953#0#PHP" expanded="false" />
-            <element signature="e#2965#3134#0#PHP" expanded="false" />
-            <element signature="e#3211#3478#0#PHP" expanded="false" />
-            <element signature="e#3542#3659#0#PHP" expanded="false" />
-            <element signature="e#3705#3842#0#PHP" expanded="false" />
-            <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#3934#3999#0#PHP" expanded="false" />
-            <element signature="n#getController#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4089#4142#0#PHP" expanded="false" />
-            <element signature="n#getAction#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4229#4299#0#PHP" expanded="false" />
-            <element signature="e#4612#4773#0#PHP" expanded="false" />
-            <element signature="n#currentUser#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#4841#5153#0#PHP" expanded="false" />
-            <element signature="e#4864#5143#0#PHP" expanded="false" />
-            <element signature="e#5007#5143#0#PHP" expanded="false" />
-            <element signature="e#5162#5283#0#PHP" expanded="false" />
-            <element signature="e#5292#5436#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1672,204 +964,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Price.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#84#0#PHP" expanded="false" />
-            <element signature="e#210#450#0#PHP" expanded="false" />
-            <element signature="e#524#744#0#PHP" expanded="false" />
-            <element signature="e#602#702#0#PHP" expanded="false" />
-            <element signature="e#703#744#0#PHP" expanded="false" />
-            <element signature="e#756#851#0#PHP" expanded="false" />
-            <element signature="e#958#1241#0#PHP" expanded="false" />
-            <element signature="e#1323#1551#0#PHP" expanded="false" />
-            <element signature="e#1404#1509#0#PHP" expanded="false" />
-            <element signature="e#1510#1551#0#PHP" expanded="false" />
-            <element signature="e#1563#1672#0#PHP" expanded="false" />
-            <element signature="e#1785#1832#0#PHP" expanded="false" />
-            <element signature="e#1877#1928#0#PHP" expanded="false" />
-            <element signature="e#1988#2075#0#PHP" expanded="false" />
-            <element signature="n#redirect#0;n#Controller#0;n#!!top" expanded="true" />
-            <element signature="e#2186#2245#0#PHP" expanded="false" />
-            <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/plant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41391304">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="n#__construct#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#order#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#where#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#limit#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#link#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#items#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#addLink#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#joinLink#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseGraph#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseMainCondition#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseMainOrder#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#buildQuery#0;n#Collection#0;n#!!top" expanded="true" />
-            <element signature="n#parseRow#0;n#Collection#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.089788735">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Model.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/TemplatePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.423077">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#83#0#PHP" expanded="false" />
-            <element signature="n#getId#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#__construct#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#1461#1504#0#PHP" expanded="false" />
-            <element signature="e#2079#4367#0#PHP" expanded="false" />
-            <element signature="e#2090#2158#0#PHP" expanded="false" />
-            <element signature="e#4228#4341#0#PHP" expanded="false" />
-            <element signature="n#setId#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#4460#4516#0#PHP" expanded="false" />
-            <element signature="n#__get#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#4632#5143#0#PHP" expanded="false" />
-            <element signature="e#4871#5143#0#PHP" expanded="false" />
-            <element signature="e#4931#5052#0#PHP" expanded="false" />
-            <element signature="n#__set#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#5264#5790#0#PHP" expanded="false" />
-            <element signature="e#5349#5440#0#PHP" expanded="false" />
-            <element signature="e#5736#5790#0#PHP" expanded="false" />
-            <element signature="n#__isset#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#5847#6172#0#PHP" expanded="false" />
-            <element signature="e#6068#6172#0#PHP" expanded="false" />
-            <element signature="e#6329#6691#0#PHP" expanded="false" />
-            <element signature="e#6359#6681#0#PHP" expanded="false" />
-            <element signature="e#6420#6667#0#PHP" expanded="false" />
-            <element signature="e#6701#6802#0#PHP" expanded="false" />
-            <element signature="e#6757#6802#0#PHP" expanded="false" />
-            <element signature="e#6812#8255#0#PHP" expanded="false" />
-            <element signature="e#6842#8245#0#PHP" expanded="false" />
-            <element signature="e#6903#8231#0#PHP" expanded="false" />
-            <element signature="e#6948#8213#0#PHP" expanded="false" />
-            <element signature="e#6997#7595#0#PHP" expanded="false" />
-            <element signature="e#7054#7560#0#PHP" expanded="false" />
-            <element signature="e#7285#7560#0#PHP" expanded="false" />
-            <element signature="e#7324#7530#0#PHP" expanded="false" />
-            <element signature="e#7620#8191#0#PHP" expanded="false" />
-            <element signature="e#7671#8156#0#PHP" expanded="false" />
-            <element signature="e#7746#8126#0#PHP" expanded="false" />
-            <element signature="e#8030#8126#0#PHP" expanded="false" />
-            <element signature="n#update#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#8588#8662#0#PHP" expanded="false" />
-            <element signature="n#insert#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#11473#11547#0#PHP" expanded="false" />
-            <element signature="n#delete#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#12811#12864#0#PHP" expanded="false" />
-            <element signature="e#12949#12993#0#PHP" expanded="false" />
-            <element signature="e#13168#13264#0#PHP" expanded="false" />
-            <element signature="n#deleteLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#13458#16165#0#PHP" expanded="false" />
-            <element signature="e#13506#16155#0#PHP" expanded="false" />
-            <element signature="e#13547#16141#0#PHP" expanded="false" />
-            <element signature="e#13592#14642#0#PHP" expanded="false" />
-            <element signature="e#13718#13922#0#PHP" expanded="false" />
-            <element signature="e#13949#14064#0#PHP" expanded="false" />
-            <element signature="e#14156#14282#0#PHP" expanded="false" />
-            <element signature="e#14285#14341#0#PHP" expanded="false" />
-            <element signature="e#14663#16123#0#PHP" expanded="false" />
-            <element signature="e#14783#15291#0#PHP" expanded="false" />
-            <element signature="e#15318#15444#0#PHP" expanded="false" />
-            <element signature="e#15766#15822#0#PHP" expanded="false" />
-            <element signature="n#loadLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#16326#19949#0#PHP" expanded="false" />
-            <element signature="e#16441#19939#0#PHP" expanded="false" />
-            <element signature="e#16556#17676#0#PHP" expanded="false" />
-            <element signature="e#16691#16801#0#PHP" expanded="false" />
-            <element signature="e#16887#16996#0#PHP" expanded="false" />
-            <element signature="e#17065#17175#0#PHP" expanded="false" />
-            <element signature="e#17250#17649#0#PHP" expanded="false" />
-            <element signature="e#17326#17537#0#PHP" expanded="false" />
-            <element signature="e#17443#17537#0#PHP" expanded="false" />
-            <element signature="e#17560#17649#0#PHP" expanded="false" />
-            <element signature="e#17765#18419#0#PHP" expanded="false" />
-            <element signature="e#17965#18075#0#PHP" expanded="false" />
-            <element signature="e#18197#18392#0#PHP" expanded="false" />
-            <element signature="e#18306#18392#0#PHP" expanded="false" />
-            <element signature="e#18507#19925#0#PHP" expanded="false" />
-            <element signature="e#18557#18732#0#PHP" expanded="false" />
-            <element signature="e#18755#18873#0#PHP" expanded="false" />
-            <element signature="e#18981#19084#0#PHP" expanded="false" />
-            <element signature="e#19176#19278#0#PHP" expanded="false" />
-            <element signature="e#19347#19450#0#PHP" expanded="false" />
-            <element signature="e#19524#19898#0#PHP" expanded="false" />
-            <element signature="e#19575#19786#0#PHP" expanded="false" />
-            <element signature="e#19692#19786#0#PHP" expanded="false" />
-            <element signature="e#19809#19898#0#PHP" expanded="false" />
-            <element signature="n#link#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#20041#20747#0#PHP" expanded="false" />
-            <element signature="e#20082#20622#0#PHP" expanded="false" />
-            <element signature="e#20160#20452#0#PHP" expanded="false" />
-            <element signature="e#20335#20452#0#PHP" expanded="false" />
-            <element signature="e#20467#20622#0#PHP" expanded="false" />
-            <element signature="e#20633#20747#0#PHP" expanded="false" />
-            <element signature="n#setLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#20813#20913#0#PHP" expanded="false" />
-            <element signature="n#setAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21036#21416#0#PHP" expanded="false" />
-            <element signature="e#21066#21406#0#PHP" expanded="false" />
-            <element signature="e#21119#21392#0#PHP" expanded="false" />
-            <element signature="e#21164#21277#0#PHP" expanded="false" />
-            <element signature="e#21301#21392#0#PHP" expanded="false" />
-            <element signature="n#setModelsAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21523#21760#0#PHP" expanded="false" />
-            <element signature="e#21560#21663#0#PHP" expanded="false" />
-            <element signature="e#21679#21760#0#PHP" expanded="false" />
-            <element signature="n#getFields#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="e#21877#21921#0#PHP" expanded="false" />
-            <element signature="n#getLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <marker date="1447915247289" expanded="false" signature="3052:3155" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="3459:3702" placeholder="SELECT `l`.*..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="4112:4163" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="7873:7992" placeholder="INSERT INTO `${{$link['table']}}`..." />
-            <marker date="1447915247289" expanded="false" signature="8735:8834" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="9309:9376" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="9856:9944" placeholder="SELECT `id` ..${static::TABLE}_lang..." />
-            <marker date="1447915247289" expanded="false" signature="10447:10514" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="11228:11263" placeholder="INSERT INTO `${static::TABLE}`..." />
-            <marker date="1447915247289" expanded="false" signature="11612:11679" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="12115:12182" placeholder="INSERT INTO `${static::TABLE}_lang`..." />
-            <marker date="1447915247289" expanded="false" signature="12885:12933" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="13038:13117" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="13732:13920" placeholder="SELECT `id` ..${$linkedModel::TABLE}..." />
-            <marker date="1447915247289" expanded="false" signature="14167:14280" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="14418:14549" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="14797:15264" placeholder="SELECT `t0`...${{$link['table']}}..." />
-            <marker date="1447915247289" expanded="false" signature="15547:15636" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="15676:15761" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="15899:16030" placeholder="DELETE FROM ..." />
-            <marker date="1447915247289" expanded="false" signature="18571:18698" placeholder="SELECT `${{$..${{$link['table']}}..." />
-          </folding>
+        <state vertical-scroll-proportion="0.46126762">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/index.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="0.35915494">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.884615">
+        <state vertical-scroll-proportion="0.64084506">
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
             <element signature="e#117#496#0#PHP" expanded="false" />
@@ -1906,35 +1034,291 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Plant.php">
+    <entry file="dbDummy://dbtable:/6b9edd17/f36372ee-ec10-4b40-a22e-81d2481c0394/florushka.flr_description">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43760985">
+          <caret line="601" column="26" selection-start-line="601" selection-start-column="26" selection-end-line="601" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Price.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/main_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
+        <state vertical-scroll-proportion="-33.346153">
+          <caret line="51" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4622144">
+          <caret line="526" column="101" selection-start-line="526" selection-start-column="101" selection-end-line="526" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Plant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="0.5518454">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Specie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38434783">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/images_catalog/hoya/main/acuta_yellow_flower.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/assets/plugins/owl.carousel/grabbing.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/assets/plugins/owl.carousel/AjaxLoader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/chunks/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/not_main_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2688928">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/models/Description.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp Perak.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya ETS - 10.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv Viola.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Carmelae.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Retusa.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Inflata.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya EPC 600.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Retusa.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Buotii.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya ir-26.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+          <folding>
+            <element signature="e#7#84#0#PHP" expanded="false" />
+            <element signature="e#210#450#0#PHP" expanded="false" />
+            <element signature="n#templateVar#0;n#Controller#0;n#!!top" expanded="true" />
+            <element signature="e#524#744#0#PHP" expanded="false" />
+            <element signature="e#602#702#0#PHP" expanded="false" />
+            <element signature="e#703#744#0#PHP" expanded="false" />
+            <element signature="e#756#851#0#PHP" expanded="false" />
+            <element signature="e#1323#1551#0#PHP" expanded="false" />
+            <element signature="e#1404#1509#0#PHP" expanded="false" />
+            <element signature="e#1510#1551#0#PHP" expanded="false" />
+            <element signature="e#1563#1672#0#PHP" expanded="false" />
+            <element signature="e#1785#1832#0#PHP" expanded="false" />
+            <element signature="e#1877#1928#0#PHP" expanded="false" />
+            <element signature="n#redirect#0;n#Controller#0;n#!!top" expanded="true" />
+            <element signature="e#2186#2245#0#PHP" expanded="false" />
+            <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
+            <element signature="n#displayPage#0;n#Controller#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/chunks/meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <element signature="n#__construct#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#order#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#where#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#limit#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#link#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#items#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#addLink#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#joinLink#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#parseGraph#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#parseMainOrder#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#buildQuery#0;n#Collection#0;n#!!top" expanded="true" />
+            <element signature="n#parseRow#0;n#Collection#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1923075">
+          <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
+          <folding>
+            <element signature="e#285#417#0#PHP" expanded="false" />
+            <element signature="e#493#654#0#PHP" expanded="false" />
+            <element signature="e#606#654#0#PHP" expanded="false" />
+            <element signature="e#816#910#0#PHP" expanded="false" />
+            <element signature="n#run#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="e#1729#1972#0#PHP" expanded="false" />
+            <element signature="e#2624#2699#0#PHP" expanded="false" />
+            <element signature="e#2779#2946#0#PHP" expanded="false" />
+            <element signature="e#2884#2946#0#PHP" expanded="false" />
+            <element signature="e#3003#3101#0#PHP" expanded="false" />
+            <element signature="e#3113#3282#0#PHP" expanded="false" />
+            <element signature="e#3359#3626#0#PHP" expanded="false" />
+            <element signature="e#3690#3807#0#PHP" expanded="false" />
+            <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="e#4082#4147#0#PHP" expanded="false" />
+            <element signature="e#4237#4290#0#PHP" expanded="false" />
+            <element signature="e#4377#4447#0#PHP" expanded="false" />
+            <element signature="e#4760#4921#0#PHP" expanded="false" />
+            <element signature="e#4989#5301#0#PHP" expanded="false" />
+            <element signature="e#5012#5291#0#PHP" expanded="false" />
+            <element signature="e#5155#5291#0#PHP" expanded="false" />
+            <element signature="e#5310#5431#0#PHP" expanded="false" />
+            <element signature="e#5440#5584#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33277312">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.038462">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.653847">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31282952">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <marker date="1448603897653" expanded="true" signature="202:214" placeholder="..." />
+            <marker date="1448603897653" expanded="true" signature="234:255" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

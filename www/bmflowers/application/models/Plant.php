@@ -19,6 +19,11 @@ class PlantModel extends Model{
             'model' => 'Price',
             'type' => LinkType::PRIMARY_KEY,
             'field' => 'id_plant'
+        ),
+        'description' => array(
+            'model' => 'Description',
+            'type' => LinkType::PRIMARY_KEY,
+            'field' => 'id_plant'
         )
     );
 }

@@ -54,6 +54,11 @@ class App{
         if(empty($_GET['action'])){
             $_GET['action'] = 'default';
         }
+
+        self::$action = explode('-', $_GET['action']);
+        foreach (self::$action as &$part) {
+            $part = ucfirst($part);
+        }
         self::$action = implode('', self::$action);
         //запуск контроллера
         return $controller::run();
@@ -71,9 +76,9 @@ class App{
         //если класс - контроллер или модель - отправляемся искать файлик в соотв. папку
         //в противном случае ищем классы в папке classes
         if(($index = strripos($className, 'Controller'))){
-            $fileName = '/Controller/' . substr_replace($className, '', $index) . '.php';
+            $fileName = '/Controllers/' . substr_replace($className, '', $index) . '.php';
         } elseif (($index = strripos($className, 'Model'))){
-            $fileName = '/Model/' . substr_replace($className, '', $index) . '.php';
+            $fileName = '/Models/' . substr_replace($className, '', $index) . '.php';
 //        } elseif(($index = strripos($className, 'Exception'))){
 //            $fileName = '/classes/Exceptions.php';
         } else {

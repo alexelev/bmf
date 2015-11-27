@@ -100,4 +100,23 @@ abstract class Controller
             return static::actionDefault();
         }
     }
+
+    /*
+     * Выводит указанный шаблон страницы в виде строки
+     * Используется класс TemplatePage
+     * В шаблоне выполняется php код
+     * перед выводом все переменные подготовленные на вывод передаются шаблону
+     */
+    /**output for a page template in a string
+     * @param string $file filename
+     * @return string file content
+     */
+    protected static function displayPage($file)
+    {
+        $template = new TemplatePage($file);
+        $template->assignGlobals(self::$templateGlobals);
+        $template->assign(self::$templateVars);
+        $result = $template->display();
+        return $result;
+    }
 }

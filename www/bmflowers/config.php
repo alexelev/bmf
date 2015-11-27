@@ -7,7 +7,7 @@
  */
 
 //основной путь в url после домена
-define('BASE_PATH', '/');
+define('BASE_PATH', '/bmflowers/');
 
 //режим работы сайта(разработка/продакшн)
 define('APP_MODE', 'dev');
@@ -21,6 +21,8 @@ define('APP_DIR', ROOT_DIR . '/application');
 
 //папка с шаблоном
 define('TPL_DIR', ROOT_DIR . '/templates');
+
+define('IMG_DIR', ROOT_DIR . '/gallery');
 
 ////папка с переводами
 //define('LANG_DIR', ROOT_DIR . '/langs');
