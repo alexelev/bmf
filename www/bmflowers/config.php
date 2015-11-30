@@ -22,7 +22,7 @@ define('APP_DIR', ROOT_DIR . '/application');
 //папка с шаблоном
 define('TPL_DIR', ROOT_DIR . '/templates');
 
-define('IMG_DIR', ROOT_DIR . '/gallery');
+define('IMG_DIR', ROOT_DIR . '/images_gallery');
 
 ////папка с переводами
 //define('LANG_DIR', ROOT_DIR . '/langs');

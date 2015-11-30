@@ -16,8 +16,9 @@
                 <div id="owl" class="owl-carousel">
                     <?php foreach ($this->slides as $slide) { ?>
                         <div class="item">
-                            <a href="?controller=gallery&gallery=<?=$slide['dir']?>">
-                                <img src="<?= App::siteUrl("gallery/{$slide['dir']}/{$slide['img']}"); ?>" alt="" title="<?=$slide['dir']?>">
+                            <a href="<?= App::getLink('gallery', array('gallery' => $slide['dir'])); ?>">
+                                <img src="<?= App::siteUrl("images_gallery/{$slide['dir']}/{$slide['img']}"); ?>" alt="" <!--title="--><?/*=$slide['dir']*/?>">
+                                <span><?=$slide['dir']?></span>
                             </a>
                         </div>
                     <?php } ?>
@@ -31,14 +32,14 @@
         <div class="wrap">
             <header></header>
             <!--<div class="logo"></div>-->
-            <a href="#" class="logo"></a>
+            <a href="<?= App::getLink('index') ?>" class="logo"></a>
             <nav>
                 <ul>
-                    <li>новости</li>
-                    <li>статьи</li>
-                    <li>каталоги</li>
-                    <li>заказ</li>
-                    <li>отзывы</li>
+                    <li><a href="#">новости</a></li>
+                    <li><a href="#">статьи</a></li>
+                    <li><a href="#">каталоги</a></li>
+                    <li><a href="#">заказ</a></li>
+                    <li><a href="#">отзывы</a></li>
                 </ul>
             </nav>
 

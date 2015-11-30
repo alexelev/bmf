@@ -16,14 +16,13 @@
     </ul>
 </nav>
 <div class="not_main_wrap">
-    <a href="<?=App::siteUrl('index.php')?>" class="not_main_logo"></a>
+    <a href="<?=App::getLink('index')?>" class="not_main_logo"></a>
     <div class="backing">
         <h1><?=$_GET['gallery']?></h1>
-<!--        --><?// echo '<pre>'; var_dump($this->plants); echo count($this->plants) ?>
         <?
             foreach($this->plants as $key => $plant){ ?>
-                <a href="<?= App::siteUrl('gallery/' . $_GET['gallery'] . '/' . $plant) ?>" data-lightbox="<?=$_GET['gallery']?>" data-title="<?=substr($plant, 0, -4)?>">
-                    <img src="<?= App::siteUrl('gallery/' . $_GET['gallery'] . '/' . $plant) ?>" alt="" class="img-thumbnail" data-size>
+                <a href="<?= App::siteUrl('images_gallery/' . $_GET['gallery'] . '/' . $plant) ?>" data-lightbox="<?=$_GET['gallery']?>" data-title="<?=substr($plant, 0, -4)?>">
+                    <img src="<?= App::siteUrl('images_gallery/' . $_GET['gallery'] . '/' . $plant) ?>" alt="" class="img-thumbnail" data-size>
                 </a>
             <?} ?>
     </div>

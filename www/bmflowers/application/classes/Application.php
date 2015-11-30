@@ -41,25 +41,42 @@ class App{
      * @return function $run() running current controller
      */
     public static function run(){
-        if(empty($_GET['controller'])){
-            $_GET['controller'] = 'index';
-        }
-        self::$controller = explode('-', $_GET['controller']);
-        foreach (self::$controller as &$cont) {
-            $cont = ucfirst($cont);
-        }
-        self::$controller = implode('', self::$controller);
-        $controller = self::$controller . 'Controller';
-        //определение action-метода для обработки запроса
-        if(empty($_GET['action'])){
-            $_GET['action'] = 'default';
+        $url = explode('?', $_SERVER['REQUEST_URI']);
+        $url = $url[0];
+        $url = str_replace(BASE_PATH, '', $url);
+
+        $url = explode('/', $url);
+
+        //определение контроллера для обработки запроса
+        if (isset($url[0]) && !empty($url[0])) {
+            self::$controller = explode('-', $url[0]);
+
+            foreach (self::$controller as &$cont) {
+                $cont = ucfirst($cont);
+            }
+            self::$controller = implode('', self::$controller);
+
+        } else {
+            self::$controller = 'Index';
         }
 
-        self::$action = explode('-', $_GET['action']);
-        foreach (self::$action as &$part) {
-            $part = ucfirst($part);
+        $controller = self::$controller . 'Controller';
+//        echo '<pre>'; var_dump($controller);
+        //определение action-метода для обработки запроса
+        if (isset($url[1])) {
+            self::$action = explode('-', $url[1]);
+            foreach (self::$action as &$part) {
+                $part = ucfirst($part);
+            }
+            self::$action = implode('', self::$action);
+        } else {
+            self::$action = 'default';
         }
-        self::$action = implode('', self::$action);
+//        echo '<br>'; var_dump(self::$action); die();
+
+
+
+
         //запуск контроллера
         return $controller::run();
     }
@@ -107,13 +124,31 @@ class App{
     public static function getLink($controller, $params = array()){
         if(preg_match('/[A-Z]/', $controller)){
             $result = array();
-            $controller = preg_match_all('/[A-Z][^A-Z]*/', preg_replace('/(.+)Controller$/', '$1', $controller), $result);
+            preg_match_all('/[A-Z][^A-Z]*/', preg_replace('/(.+)Controller$/', '$1', $controller), $result);
             $controller = strtolower(implode('-', $result[0]));
         }
-        $link = 'index.php?controller=' . $controller;
+
+        if (isset($params['action'])) {
+            $action = $params['action'];
+            unset($params['action']);
+
+            if (preg_match('/[A-Z]/', $action)) {
+                $result = array();
+                preg_match('/^[a-z]*/', $action, $match);
+                preg_match_all('/[A-Z][^A-Z]*/', $action, $result);
+                array_unshift($result[0], $match[0]);
+                $action = strtolower(implode('-', $result[0]));
+            }
+        }
+
+        $link = $controller;
+        if (isset($action)) $link .= '/' . $action;
+        if (!empty($params)) $link .= '?';
+
         foreach ($params as $key => $param) {
             $link .= '&' . urlencode($key) . '=' . urlencode($param);
         }
+
         return BASE_PATH . $link;
     }
 
