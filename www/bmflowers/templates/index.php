@@ -40,6 +40,7 @@
                     <li><a href="#">каталоги</a></li>
                     <li><a href="#">заказ</a></li>
                     <li><a href="#">отзывы</a></li>
+                    <li><a href="<?=App::getLink('gallery')?>">галерея</a></li>
                 </ul>
             </nav>
 

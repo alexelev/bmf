@@ -61,7 +61,7 @@ class App{
         }
 
         $controller = self::$controller . 'Controller';
-//        echo '<pre>'; var_dump($controller);
+//        echo '<pre>'; var_dump($controller); die();
         //определение action-метода для обработки запроса
         if (isset($url[1])) {
             self::$action = explode('-', $url[1]);

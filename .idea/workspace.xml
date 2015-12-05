@@ -2,233 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd16d28b-6474-473c-a07f-10f9fb686072" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/models/Admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Office.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/templates/gallery_main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/bmflowers/templates/office.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/.htaccess" afterPath="$PROJECT_DIR$/www/bmflowers/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/Application.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/classes/TemplatePage.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/classes/TemplatePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/controllers/Admin.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php" afterPath="$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/assets/css/main.css" afterPath="$PROJECT_DIR$/www/bmflowers/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/config.php" afterPath="$PROJECT_DIR$/www/bmflowers/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/index.php" afterPath="$PROJECT_DIR$/www/bmflowers/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/templates/gallery.php" afterPath="$PROJECT_DIR$/www/bmflowers/templates/gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php" afterPath="$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/bmflowers/templates/index.php" afterPath="$PROJECT_DIR$/www/bmflowers/templates/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Collection/1.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Collection/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Collection/2.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Collection/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Collection/3.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Collection/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Collection/4.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Collection/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Collection/shlumb.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Collection/shlumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Australis Lisa.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Australis Lisa.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Carnosa Exotika.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Carnosa Exotika.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Carnosa Krimson queen.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Carnosa Krimson queen.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Elliptica splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Elliptica splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Incrassata Moon Shadow.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Incrassata Moon Shadow.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Kerri albomarginata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Kerri albomarginata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Lacunosa Royal Flush.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Lacunosa Royal Flush.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Lithophytica.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Lithophytica.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Mitrata perfect splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Mitrata perfect splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Obovata variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Obovata variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Pachyclada variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Pachyclada variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya Retusa.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya Retusa.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya cv Mathilda splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya cv Mathilda splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya cv Rebecca.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya cv Rebecca.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya sp EKW97-005 Chicken Farm.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya sp EKW97-005 Chicken Farm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya sp Ovalau Island.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya sp Ovalau Island.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/1_Hoya sp Phu Wua.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/1_Hoya sp Phu Wua.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/2_Hoya Carnosa Krimson queen.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/2_Hoya Carnosa Krimson queen.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/2_Hoya EPC 600.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/2_Hoya EPC 600.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/2_Hoya cv Mathilda splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/2_Hoya cv Mathilda splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/2_Hoya sp(DML-5655B)or (IML-1398).jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/2_Hoya sp(DML-5655B)or (IML-1398).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Archboldiana variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Archboldiana variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Archiboldiana White.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Archiboldiana White.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Australis Lisa.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Australis Lisa.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Australis albomarginata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Australis albomarginata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Balaensis splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Balaensis splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Buotii.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Buotii.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Campanulata flower.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Campanulata flower.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Carmelae.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Carmelae.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Carnosa Exotika.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Carnosa Exotika.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Carnosa Grey Ghost 1.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Carnosa Grey Ghost 1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Carnosa Krimson queen.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Carnosa Krimson queen.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Carnosa cv Brazil.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Carnosa cv Brazil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Chicken Farm flower.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Chicken Farm flower.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Curtisii Silver.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Curtisii Silver.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Danumensis Splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Danumensis Splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Deykeae Splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Deykeae Splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Diptera splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Diptera splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya EPC 600.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya EPC 600.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya ETS - 10.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya ETS - 10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Elliptica splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Elliptica splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Endauensis.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Endauensis.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Finlaysonii EPC-317.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Finlaysonii EPC-317.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Finlaysonii Nova.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Finlaysonii Nova.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Finlaysonii splash EPC-143.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Finlaysonii splash EPC-143.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Finlaysonii splash&amp;long leaf.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Finlaysonii splash&amp;long leaf.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Finlaysonii very large ovate leaves.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Finlaysonii very large ovate leaves.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Flagellata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Flagellata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Forbesii splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Forbesii splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Globulosa.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Globulosa.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Heuschkeliana variegated.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Heuschkeliana variegated.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Incrasata Eclipse.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Incrasata Eclipse.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Incrassata Moon Shadow.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Incrassata Moon Shadow.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Inflata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Inflata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Kenejiana Albomarginata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Kenejiana Albomarginata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Kentiana variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Kentiana variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Kerri Spot Margin.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Kerri Spot Margin.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Kerri albomarginata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Kerri albomarginata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Kerri yellow variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Kerri yellow variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Kerrii  spot center.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Kerrii  spot center.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Lacunosa Royal Flush.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Lacunosa Royal Flush.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Lithophytica.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Lithophytica.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Lobbii black flower.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Lobbii black flower.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Lobbii splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Lobbii splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Macrophylla Pot of Gold.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Macrophylla Pot of Gold.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Macrophylla Super Splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Macrophylla Super Splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Macrophylla Variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Macrophylla Variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Mappigera.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Mappigera.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Megalaster.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Megalaster.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Meredithii green.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Meredithii green.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Meredithii.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Meredithii.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Mindorensis Full yellow flowers.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Mindorensis Full yellow flowers.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Mitrata perfect splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Mitrata perfect splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Obovata Variegata Splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Obovata Variegata Splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Obovata variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Obovata variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Pachyclada variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Pachyclada variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Parviflora splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Parviflora splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Pentaphlebia.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Pentaphlebia.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Pubicalyx Chimera.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Pubicalyx Chimera.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Pubicalyx Fresno Beauty.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Pubicalyx Fresno Beauty.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Retusa.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Retusa.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Vertivulata yellow variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Vertivulata yellow variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Vitellina splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Vitellina splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Vitellinoides flower.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Vitellinoides flower.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Vitiensis yellow form.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Vitiensis yellow form.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Vitiensis.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Vitiensis.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya Walliniana IML 1854.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya Walliniana IML 1854.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv  Minibelle splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya cv  Minibelle splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv 422 PNG.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya cv 422 PNG.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv Mathilda splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya cv Mathilda splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv Mathilde.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya cv Mathilde.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv Minibelle splash.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya cv Minibelle splash.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv Minibelle.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya cv Minibelle.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv Rebecca.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya cv Rebecca.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya cv Viola.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya cv Viola.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya ir-26.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya ir-26.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp (DML-5655B).jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya sp (DML-5655B).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp Davao Philippines 903122 Estrella waterfall GPS 10068.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya sp Davao Philippines 903122 Estrella waterfall GPS 10068.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp EKW97-005 Chicken Farm high splash leaves.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya sp EKW97-005 Chicken Farm high splash leaves.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp EKW97-005 Chicken Farm.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya sp EKW97-005 Chicken Farm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp Perak.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya sp Perak.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp Phu Wua.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya sp Phu Wua.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp Sabah TOC (Hoya forbesii sp aff.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya sp Sabah TOC (Hoya forbesii sp aff.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Hoya/Hoya sp ds 70 variegated.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Hoya/Hoya sp ds 70 variegated.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/1_Ficus Triangularis Coconut Cream.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/1_Ficus Triangularis Coconut Cream.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/1_Ficus Triangularis White variegated.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/1_Ficus Triangularis White variegated.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Epipremnum Skeleton.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Epipremnum Skeleton.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Amstel Gold.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Amstel Gold.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Barocko Irene.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Barocko Irene.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Benjamina Curly.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Benjamina Curly.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Benjamina Golden King.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Benjamina Golden King.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Benjamina Golden Monique.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Benjamina Golden Monique.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Benjamina Kinky.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Benjamina Kinky.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Benjamina Natasja variegata.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Benjamina Natasja variegata.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Deltoidea Golden.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Deltoidea Golden.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Triangularis Coconut Cream.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Triangularis Coconut Cream.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Ficus Triangularis White variegated.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Ficus Triangularis White variegated.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Monstera Adansonii Schott.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Monstera Adansonii Schott.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Monstera Karstenianum (Philodendron Opacum).jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Monstera Karstenianum (Philodendron Opacum).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Philodendron Hastatum Siam Sunrise.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Philodendron Hastatum Siam Sunrise.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Philodendron sp.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Philodendron sp.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Scindapsus Pictus Argyraeus.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Scindapsus Pictus Argyraeus.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Scindapsus Pictus sp 1.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Scindapsus Pictus sp 1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Albolineatum.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Albolineatum.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Angustatum.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Angustatum.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Aom Manee.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Aom Manee.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Aom Phet.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Aom Phet.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Christmas.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Christmas.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Godzilla.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Godzilla.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Golden Venation.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Golden Venation.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Green Velvet.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Green Velvet.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Macrophyllum Frosted Heart.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Macrophyllum Frosted Heart.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Neon Tethra.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Neon Tethra.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Panda.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Panda.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Pinc Spot.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Pinc Spot.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Pink Spot.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Pink Spot.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Plum Allusion.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Plum Allusion.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Ratsemee Naq.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Ratsemee Naq.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Red Spot.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Red Spot.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Red Spot1.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Red Spot1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Regina Red.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Regina Red.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Tiffani.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Tiffani.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium Wendlandii Scrambled Eggs.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium Wendlandii Scrambled Eggs.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Leaves/Syngonium White Frame.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Leaves/Syngonium White Frame.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Matching/Ficuses matching.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Matching/Ficuses matching.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Matching/Hoya Finlaysonii big dark leaves &amp; Hoya Callistophylla short leaves form.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Matching/Hoya Finlaysonii big dark leaves &amp; Hoya Callistophylla short leaves form.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Matching/Hoya Mirabilis clone B &amp; Hoya Mirabilis clone A.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Matching/Hoya Mirabilis clone B &amp; Hoya Mirabilis clone A.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Matching/Hoya cv Minibelle &amp; Hoya Longifolia Pubescens &amp; Hoya Shepherdii.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Matching/Hoya cv Minibelle &amp; Hoya Longifolia Pubescens &amp; Hoya Shepherdii.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Dark Red.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Dark Red.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Fucsia.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Fucsia.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Fucsia_1.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Fucsia_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Malina.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Malina.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Orange.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Orange.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Pink Satin.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Pink Satin.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Red.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis Red.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis White.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Rhipsalidopsis and Epiphyllum/Rhipsalidopsis White.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Berry Edging.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Berry Edging.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Corall Orange.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Corall Orange.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Dark Eva.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Dark Eva.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Eprics Star.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Eprics Star.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Hot Yellow.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Hot Yellow.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Outono Brazil.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Outono Brazil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Pink Edging.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Pink Edging.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Samba Brasil.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Samba Brasil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Sol Brasil.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Sol Brasil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Sunset Dancer.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Sunset Dancer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Tango.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Tango.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/1_Schlumbergera Tomato.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/1_Schlumbergera Tomato.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/2_Schlumbergera Dark Eva.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/2_Schlumbergera Dark Eva.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/2_Schlumbergera Samba Brasil.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/2_Schlumbergera Samba Brasil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/2_Schlumbergera Sunset Dancer.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/2_Schlumbergera Sunset Dancer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/2_Schlumbergera Tomato.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/2_Schlumbergera Tomato.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/3_Schlumbergera Dark Eva.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/3_Schlumbergera Dark Eva.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/3_Schlumbergera Tomato.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/3_Schlumbergera Tomato.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Autumn.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Autumn.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Berry Edging.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Berry Edging.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Christmas Cheer.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Christmas Cheer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Corall Orange.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Corall Orange.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Corall.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Corall.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Crly Red and White.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Crly Red and White.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Dark Eva.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Dark Eva.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera DarkMagenta.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera DarkMagenta.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Eprics Star.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Eprics Star.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Fucsia.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Fucsia.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Hatherthon Charm.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Hatherthon Charm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Hot Yellow.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Hot Yellow.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Lemon.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Lemon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Liberty Jasma Jey.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Liberty Jasma Jey.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Malibu.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Malibu.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Malissa.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Malissa.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Maroon Edging.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Maroon Edging.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Maruska.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Maruska.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Multi Red.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Multi Red.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Orange.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Orange.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera OrangeRed and White inside.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera OrangeRed and White inside.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Outono Brazil.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Outono Brazil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Pastell Orange.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Pastell Orange.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Peach.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Peach.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Pink Edging.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Pink Edging.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Polka Dancer.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Polka Dancer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Red and White.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Red and White.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Samba Brasil.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Samba Brasil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Sol Brasil.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Sol Brasil.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Sunset Dancer.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Sunset Dancer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Swan Lake (X Reginae).jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Swan Lake (X Reginae).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Tango.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Tango.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Thor Kiri.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Thor Kiri.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Tomato.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Tomato.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Tricolor.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Tricolor.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/bmflowers/gallery/Schlumbergera/Schlumbergera Yellow.jpg" afterPath="$PROJECT_DIR$/www/bmflowers/images_gallery/Schlumbergera/Schlumbergera Yellow.jpg" />
     </list>
     <ignored path="BMFlowers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -334,120 +118,152 @@
     <favorites_list name="BMFlowers" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48958334">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.1923075">
-                  <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.692307">
-                  <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#285#417#0#PHP" expanded="false" />
-                    <element signature="e#493#654#0#PHP" expanded="false" />
-                    <element signature="e#606#654#0#PHP" expanded="false" />
-                    <element signature="e#816#910#0#PHP" expanded="false" />
-                    <element signature="n#loadClasses#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="e#3494#3663#0#PHP" expanded="false" />
-                    <element signature="n#getLink#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="n#getController#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="n#getAction#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="n#isAjax#0;n#App#0;n#!!top" expanded="true" />
-                    <element signature="n#currentUser#0;n#App#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Gallery.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.9230769">
-                  <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7490775">
-                  <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#2663#2725#0#HTML" expanded="true" />
-                    <element signature="e#2767#2829#0#HTML" expanded="true" />
-                    <marker date="1448881838071" expanded="true" signature="1317:1410" placeholder="..." />
-                    <marker date="1448881838071" expanded="true" signature="1453:2241" placeholder="..." />
-                    <marker date="1448881838071" expanded="true" signature="1614:1938" placeholder="..." />
-                    <marker date="1448881838071" expanded="true" signature="1635:1919" placeholder="..." />
-                    <marker date="1448881838071" expanded="true" signature="1973:2196" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/gallery.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.2692308">
-                  <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-                  <folding>
-                    <marker date="1448750441004" expanded="true" signature="202:214" placeholder="..." />
-                    <marker date="1448750441004" expanded="true" signature="234:255" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="alogin_form.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.153846">
-                  <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.1923075">
-                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/www/bmflowers/assets/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4077491">
-                  <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TemplatePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/TemplatePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.076923">
+              <caret line="92" column="56" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
+              <folding>
+                <element signature="n#displayTemplate#0;n#TemplatePage#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="office.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/office.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+              <folding>
+                <element signature="e#285#417#0#PHP" expanded="false" />
+                <element signature="e#493#654#0#PHP" expanded="false" />
+                <element signature="e#606#654#0#PHP" expanded="false" />
+                <element signature="e#816#910#0#PHP" expanded="false" />
+                <element signature="n#loadClasses#0;n#App#0;n#!!top" expanded="true" />
+                <element signature="e#3501#3670#0#PHP" expanded="false" />
+                <element signature="n#getLink#0;n#App#0;n#!!top" expanded="true" />
+                <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
+                <element signature="n#getController#0;n#App#0;n#!!top" expanded="true" />
+                <element signature="n#getAction#0;n#App#0;n#!!top" expanded="true" />
+                <element signature="n#isAjax#0;n#App#0;n#!!top" expanded="true" />
+                <element signature="n#currentUser#0;n#App#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="n#ActionDefault#0;n#AdminController#0;n#!!top" expanded="true" />
+                <marker date="1449301191773" expanded="true" signature="315:363" placeholder="select * fro..admins..." />
+                <marker date="1449301191773" expanded="true" signature="315:364" placeholder="select `pass..admins..." />
+                <marker date="1449301191773" expanded="true" signature="315:634" placeholder="select * fro..admins..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Office.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Office.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.269231">
+              <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+              <folding>
+                <element signature="e#7#84#0#PHP" expanded="false" />
+                <element signature="e#210#450#0#PHP" expanded="false" />
+                <element signature="n#templateVar#0;n#Controller#0;n#!!top" expanded="true" />
+                <element signature="e#602#702#0#PHP" expanded="false" />
+                <element signature="e#703#744#0#PHP" expanded="false" />
+                <element signature="e#756#851#0#PHP" expanded="false" />
+                <element signature="e#1323#1551#0#PHP" expanded="false" />
+                <element signature="e#1404#1509#0#PHP" expanded="false" />
+                <element signature="e#1510#1551#0#PHP" expanded="false" />
+                <element signature="e#1563#1672#0#PHP" expanded="false" />
+                <element signature="e#1785#1832#0#PHP" expanded="false" />
+                <element signature="e#1877#1928#0#PHP" expanded="false" />
+                <element signature="e#2186#2245#0#PHP" expanded="false" />
+                <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
+                <element signature="n#displayPage#0;n#Controller#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.269231">
+              <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+              <folding>
+                <element signature="n#getValue#0;n#DB#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8747698">
+              <caret line="443" column="0" selection-start-line="443" selection-start-column="0" selection-end-line="443" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alogin_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.923077">
+              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+              <folding>
+                <element signature="e#364#730#0#HTML" expanded="true" />
+                <element signature="e#494#718#0#HTML" expanded="true" />
+                <marker date="1449343559837" expanded="true" signature="1311:1493" placeholder="..." />
+                <marker date="1449343559837" expanded="true" signature="1534:1729" placeholder="..." />
+                <marker date="1449343559837" expanded="true" signature="1806:1818" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -485,19 +301,23 @@
         <option value="$PROJECT_DIR$/www/bmflowers/application/models/Description.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Collection.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Model.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/models/Admin.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Admin.php" />
         <option value="$PROJECT_DIR$/../../modules/php/PHP-5.6/php.ini" />
         <option value="$PROJECT_DIR$/www/bmflowers/.htaccess" />
         <option value="$PROJECT_DIR$/www/bmflowers/config.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Index.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/templates/gallery.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/index.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/application/classes/Application.php" />
-        <option value="$PROJECT_DIR$/www/bmflowers/templates/chunks/meta.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/templates/index.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/gallery_main.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/chunks/meta.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/office.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Admin.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/classes/TemplatePage.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/application/controllers/Office.php" />
+        <option value="$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php" />
         <option value="$PROJECT_DIR$/www/bmflowers/assets/css/main.css" />
       </list>
     </option>
@@ -551,6 +371,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="BMFlowers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="BMFlowers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="www">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bmflowers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="BMFlowers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="www">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="bmflowers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="application">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -654,66 +532,108 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BMFlowers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BMFlowers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMFlowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="bmflowers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmflowers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BMFlowers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="bmflowers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="application">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="classes">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -733,7 +653,7 @@
       <recent name="D:\OpenServer\domains\BMFlowers\www\bmflowers\application" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Remote Debug.bmflowers">
+  <component name="RunManager" selected="PHP Script.bmf">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -821,28 +741,34 @@
       <option name="project" value="LOCAL" />
       <updated>1448618913055</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="изменена схема маршрутизации, добавлены редиректы в .htaccess, css правки (оформление ссылок и картинок в галерее на главной)">
+      <created>1448884081821</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1448884081821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22247024" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22247024" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30385852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24925596" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2313988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39807382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39698493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3658915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -867,7 +793,9 @@
     <MESSAGE value="рефакторинг DB, добавлена возможность вызова хранимых процедур" />
     <MESSAGE value="добавлены модели PlantModel, PriceModel, SpecieModel" />
     <MESSAGE value="полностью добавлена галерея изображений" />
-    <option name="LAST_COMMIT_MESSAGE" value="полностью добавлена галерея изображений" />
+    <MESSAGE value="изменена схема маршрутизации, добавлены редиректы в .htaccess, css правки" />
+    <MESSAGE value="изменена схема маршрутизации, добавлены редиректы в .htaccess, css правки (оформление ссылок и картинок в галерее на главной)" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменена схема маршрутизации, добавлены редиректы в .htaccess, css правки (оформление ссылок и картинок в галерее на главной)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -881,32 +809,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Projects/heap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65482235">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02881356">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f36372ee-ec10-4b40-a22e-81d2481c0394/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/r.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -942,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64084506">
-          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/6b9edd17/f36372ee-ec10-4b40-a22e-81d2481c0394/florushka.flr_description">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -966,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-33.346153">
           <caret line="51" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,24 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4622144">
           <caret line="526" column="101" selection-start-line="526" selection-start-column="101" selection-end-line="526" selection-end-column="101" />
-          <folding>
-            <element signature="n#save#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#setLink#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#setAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#setModelsAutoload#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#getFields#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#getLinks#0;n#Model#0;n#!!top" expanded="true" />
-            <marker date="1448321484492" expanded="true" signature="4112:4163" placeholder="SELECT * FRO..${static::TABLE}..." />
-            <marker date="1448321484492" expanded="true" signature="7873:7992" placeholder="INSERT INTO `${{$link['table']}}`..." />
-            <marker date="1448321484492" expanded="true" signature="11228:11263" placeholder="INSERT INTO `${static::TABLE}`..." />
-            <marker date="1448321484492" expanded="true" signature="12885:12933" placeholder="DELETE FROM ..." />
-            <marker date="1448321484492" expanded="true" signature="13732:13920" placeholder="SELECT `id` ..${$linkedModel::TABLE}..." />
-            <marker date="1448321484492" expanded="true" signature="14167:14280" placeholder="DELETE FROM ..." />
-            <marker date="1448321484492" expanded="true" signature="14797:15264" placeholder="SELECT `t0`...${{$link['table']}}..." />
-            <marker date="1448321484492" expanded="true" signature="15547:15636" placeholder="DELETE FROM ..." />
-            <marker date="1448321484492" expanded="true" signature="15676:15761" placeholder="DELETE FROM ..." />
-            <marker date="1448321484492" expanded="true" signature="18571:18698" placeholder="SELECT `${{$..${{$link['table']}}..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,13 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34859154">
@@ -1136,51 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08963093">
           <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="e#7#84#0#PHP" expanded="false" />
-            <element signature="e#210#450#0#PHP" expanded="false" />
-            <element signature="n#templateVar#0;n#Controller#0;n#!!top" expanded="true" />
-            <element signature="e#602#702#0#PHP" expanded="false" />
-            <element signature="e#703#744#0#PHP" expanded="false" />
-            <element signature="e#756#851#0#PHP" expanded="false" />
-            <element signature="e#1323#1551#0#PHP" expanded="false" />
-            <element signature="e#1404#1509#0#PHP" expanded="false" />
-            <element signature="e#1510#1551#0#PHP" expanded="false" />
-            <element signature="e#1563#1672#0#PHP" expanded="false" />
-            <element signature="e#1785#1832#0#PHP" expanded="false" />
-            <element signature="e#1877#1928#0#PHP" expanded="false" />
-            <element signature="n#redirect#0;n#Controller#0;n#!!top" expanded="true" />
-            <element signature="e#2186#2245#0#PHP" expanded="false" />
-            <element signature="n#displayPage#0;n#Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/TemplatePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.653847">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <element signature="n#__construct#0;n#TemplatePage#0;n#!!top" expanded="true" />
-            <element signature="n#assignGlobals#0;n#TemplatePage#0;n#!!top" expanded="true" />
-            <element signature="n#display#0;n#TemplatePage#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6414763">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,14 +1040,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <marker date="1448750441004" expanded="true" signature="202:214" placeholder="..." />
+            <marker date="1448750441004" expanded="true" signature="234:255" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/gallery_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/chunks/meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.269231">
+          <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+          <folding>
+            <element signature="n#getValue#0;n#DB#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.269231">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#84#0#PHP" expanded="false" />
+            <element signature="e#210#450#0#PHP" expanded="false" />
+            <element signature="n#templateVar#0;n#Controller#0;n#!!top" expanded="true" />
+            <element signature="e#602#702#0#PHP" expanded="false" />
+            <element signature="e#703#744#0#PHP" expanded="false" />
+            <element signature="e#756#851#0#PHP" expanded="false" />
+            <element signature="e#1323#1551#0#PHP" expanded="false" />
+            <element signature="e#1404#1509#0#PHP" expanded="false" />
+            <element signature="e#1510#1551#0#PHP" expanded="false" />
+            <element signature="e#1563#1672#0#PHP" expanded="false" />
+            <element signature="e#1785#1832#0#PHP" expanded="false" />
+            <element signature="e#1877#1928#0#PHP" expanded="false" />
+            <element signature="e#2186#2245#0#PHP" expanded="false" />
+            <element signature="n#run#0;n#Controller#0;n#!!top" expanded="true" />
+            <element signature="n#displayPage#0;n#Controller#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="e#285#417#0#PHP" expanded="false" />
+            <element signature="e#493#654#0#PHP" expanded="false" />
+            <element signature="e#606#654#0#PHP" expanded="false" />
+            <element signature="e#816#910#0#PHP" expanded="false" />
+            <element signature="n#loadClasses#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="e#3501#3670#0#PHP" expanded="false" />
+            <element signature="n#getLink#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="n#getController#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="n#getAction#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="n#isAjax#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="n#currentUser#0;n#App#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/office.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1232,74 +1165,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/Application.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.692307">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#285#417#0#PHP" expanded="false" />
-            <element signature="e#493#654#0#PHP" expanded="false" />
-            <element signature="e#606#654#0#PHP" expanded="false" />
-            <element signature="e#816#910#0#PHP" expanded="false" />
-            <element signature="n#loadClasses#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="e#3494#3663#0#PHP" expanded="false" />
-            <element signature="n#getLink#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="n#siteUrl#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="n#getController#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="n#getAction#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="n#isAjax#0;n#App#0;n#!!top" expanded="true" />
-            <element signature="n#currentUser#0;n#App#0;n#!!top" expanded="true" />
+            <element signature="n#ActionDefault#0;n#AdminController#0;n#!!top" expanded="true" />
+            <marker date="1449301191773" expanded="true" signature="315:363" placeholder="select * fro..admins..." />
+            <marker date="1449301191773" expanded="true" signature="315:364" placeholder="select `pass..admins..." />
+            <marker date="1449301191773" expanded="true" signature="315:634" placeholder="select * fro..admins..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/chunks/meta.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/classes/TemplatePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2195572">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-12.076923">
+          <caret line="92" column="56" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
+          <folding>
+            <element signature="n#displayTemplate#0;n#TemplatePage#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/gallery.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/application/controllers/Office.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <marker date="1448750441004" expanded="true" signature="202:214" placeholder="..." />
-            <marker date="1448750441004" expanded="true" signature="234:255" placeholder="..." />
-          </folding>
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/index.php">
+    <entry file="file://$PROJECT_DIR$/www/bmflowers/templates/alogin_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7490775">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state vertical-scroll-proportion="-18.923077">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding>
-            <element signature="e#2663#2725#0#HTML" expanded="true" />
-            <element signature="e#2767#2829#0#HTML" expanded="true" />
-            <marker date="1448881838071" expanded="true" signature="1317:1410" placeholder="..." />
-            <marker date="1448881838071" expanded="true" signature="1453:2241" placeholder="..." />
-            <marker date="1448881838071" expanded="true" signature="1614:1938" placeholder="..." />
-            <marker date="1448881838071" expanded="true" signature="1635:1919" placeholder="..." />
-            <marker date="1448881838071" expanded="true" signature="1973:2196" placeholder="..." />
+            <element signature="e#364#730#0#HTML" expanded="true" />
+            <element signature="e#494#718#0#HTML" expanded="true" />
+            <marker date="1449343559837" expanded="true" signature="1311:1493" placeholder="..." />
+            <marker date="1449343559837" expanded="true" signature="1534:1729" placeholder="..." />
+            <marker date="1449343559837" expanded="true" signature="1806:1818" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/bmflowers/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4077491">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.8747698">
+          <caret line="443" column="0" selection-start-line="443" selection-start-column="0" selection-end-line="443" selection-end-column="0" />
           <folding />
         </state>
       </provider>

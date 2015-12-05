@@ -82,13 +82,15 @@ class TemplatePage extends Template
      * @return string
      */
     public function display() {
+//        echo '<br>' . 'TemplatePage/display' . '<br>';
         ob_start();
-
+//        echo '<br>' . 'ob_start()' . '<br>';
         // Подключение переводов для шаблона
 //        App::setTranslation('templates/' . $this->file);
 
         include TPL_DIR . '/' . $this->file . '.php';
-
+//        echo TPL_DIR . '/' . $this->file . '.php<br>';
+//        echo '<br>before return from the display<br>';
         return ob_get_clean();
     }
 
